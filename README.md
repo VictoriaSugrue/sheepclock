@@ -2,7 +2,7 @@
 Scripts for sheep epigenetic clock/castration project
 
 
-11 November 2020
+12 November 2020
 
 annotate_updated.py 
 - Python script. Annotates the intersects found in “intersect_updated.sd” with the transcription factor and experiment information (Cistrome analysis)
