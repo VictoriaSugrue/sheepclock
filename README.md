@@ -8,7 +8,7 @@ annotate_updated.py
 Python script. Annotates the intersects found in “intersect_updated.sd” with the transcription factor and experiment information (Cistrome analysis)
 	
 arrayNormalizationTutorialVersion2.Rmd
-	R script. Minfi normalization with noob background correction
+R script. Minfi normalization with noob background correction
 
 Fig1B_Manhattan.R
 R script. Manhattan plot of all probes x p-value of age correlation using qqman package
