@@ -1,0 +1,284 @@
+---
+title: "Data normalization tutorial for methylation array"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+# Dependencies
+
+The code below requires the tidyverse set of packages and custom versions of the minfi and SeSaMe packages. These can all be installed with the following lines, though minfi and SeSaMe may require additional dependencies you will have to install yourself. If you run into any issues during the installation process for either packages, feel free to contact Adriana Sperlea (asperlea@ucla.edu), or better yet use the mammalian array google group: https://urldefense.proofpoint.com/v2/url?u=https-3A__groups.google.com_forum_-23-21forum_mammalian-2Dmethylation-2Darray-2Dusers&d=DwIGAg&c=UXmaowRpu5bLSLEQRunJ2z-YIUZuUoa9Rw_x449Hd_Y&r=ODhUI3xJF2vctb8cWrFtR9LJftdDplqmqLSiCW7NM18&m=QV6GKd9u6NtosiHNZrRl3tkUJmdEcsdXtDWN7QF9GSU&s=rcNKeO6WhWAvejjzCA-IEC2S2m4FzOcvKDBQozGTqbM&e= .
+
+The code below installs tidyverse and also minfi and SeSaMe from source. It assumes that this notebook is in the same folder as the `Rpackages` folder, so if you changed that, you should also change the paths below. Note that the latest SeSaMe version requires R 3.6. If you have an older version of R, you can use the SeSaMe version available on Bioconductor. Since this is a developmental version, it's best to install the available SeSaMe and minfi versions from Bioconductor, then install the packages below.
+
+```{r}
+install.packages("tidyverse")
+install.packages("Rpackages/sesame_1.3.0.tar.gz", repos=NULL, type="source")
+install.packages("Rpackages/HorvathMammalMethylChip40manifest_0.2.2.tar.gz", repos=NULL, type="source")
+install.packages("Rpackages/HorvathMammalMethylChip40anno.test.unknown_0.2.2.tar.gz", repos=NULL, type="source")
+```
+
+# Loading required libraries.
+
+The part below is just to make a pretty pdf if you chose to knit this notebook. Disregard otherwise.
+```{r}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+Loading necessary libraries for normalization.
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(sesame)
+library(minfi)
+library(HorvathMammalMethylChip40manifest)
+library(HorvathMammalMethylChip40anno.test.unknown)
+```
+
+# Folder structure
+
+The code below has several hardcoded file paths. These might be your main source of errors. The variable below points to where you store Dropbox folders on your computer. Make sure to change this to what is accurate for your own file system.
+```{r}
+dropbox_directory <- "~/Dropbox/"
+```
+
+The project directory is the name of the folder Steve shared with you on Dropbox, and the project number is the number associated with your data set, which can be found at the beginning of your folder name.
+```{r}
+project_directory <- "N02.2018-9290MouseMultiTissueNanWang"
+project_number <- "02"
+```
+
+Sample sheet associated with your data:
+```{r}
+sample_sheet_file_name <- paste0(dropbox_directory, project_directory, "/SampleSheetAgeN", project_number, "final.csv")
+```
+
+Sesame manifest file:
+```{r}
+manifest_file_name_sesame <- "manifests/HorvathMammal40.CanonicalManifest.3.2019.sesame.csv"
+```
+The minfi manifest file is already hardcoded into the R package, so you don't need it here.
+
+If you have moved the `manifests` folder in relation to this R notebook, you will have to update the paths above.
+
+# 1. Normalizing all probes together and not excluding any probes
+
+The steps below will result in a dataframe of # probes by # samples in your data set, containing normalized values. You may then want to subset the probes on the array to only the probes that work in your species of interest. This is covered in Section 2.
+
+## 1.1 Normalizing using minfi
+
+Read in the sample sheet and process columns to make it work with minfi. Note that the operations below lead to having a column named 'Basename' that contains a file path prefix for each sample, that can be appended with _Grn.idat and _Red.idat for that particular sample. The string arithmetic below works on the sample sheet the way they were formatted by Steve Horvath. If you have a different type of sample sheet you will need to adjust this section accordingly.
+```{r}
+sample_sheet <- read_csv(sample_sheet_file_name)
+
+sample_sheet <- sample_sheet %>%
+  mutate(idat_name = Basename)
+sample_sheet <- separate(sample_sheet, "Basename", into=c("Slide", "stripe"), sep="_")
+sample_sheet <- sample_sheet %>% 
+  mutate(Basename = paste0("~/Dropbox/", project_directory, "/idatfiles/", Slide, "/", idat_name))
+sample_sheet %>% select(Basename) %>% head
+```
+
+The code above prints the first few lines of the Basename column, so you get an idea of what you need to have for each sample in case you change the sample sheet.
+
+Now read in the data by passing the sample sheet to minfi, normalize it and save to file.
+```{r}
+# Creates an RGChannelSet object containing the raw red green channel information from the idat files
+RGset <- read.metharray.exp(base=NULL, targets=sample_sheet, recursive=TRUE) 
+# Annotates the RGset object with probe coordinates. This line is currently just a place holder as the annotation is empty, but needs to be run anyway.
+RGset@annotation = c(array='HorvathMammalMethylChip40', annotation="test.unknown")
+# Calling getBeta on the RGset object will return a data frame of raw beta values for each CG site
+raw_betas_minfi <- as_tibble(getBeta(RGset), rownames="CGid") # a tibble is just a regular data frame where the rownames are a separate variable
+  
+# Calling preprocessNoob on RGset will return a MethylSet object, which contains normalized beta values along with a few other things
+Mset = preprocessNoob(RGset)
+# Calling getBeta on Mset will return a data frame of normalized beta values for each CG Site
+normalized_betas_minfi = as_tibble(getBeta(Mset), rownames="CGid") # a tibble is just a regular data frame where the rownames are a separate variable
+
+# Save the normalized data to a file if you would like to
+#save(normalized_betas_minfi, file=paste0(dropbox_directory, project_directory, "/NormalizedData/all_probes_minfi_normalized.Rdata")) # this assumes that the folder NormalizedData exists in your project folder
+```
+
+If you are interested in the detection p-values associated with each measured probe intensity from the array, you can obtain these with the following code.
+```{r}
+detection_P_values_minfi <- as_tibble(detectionP(RGset), rownames = "CGid")
+
+# Save the detection p values to a file if you would like to
+save(detection_P_values_minfi, file=paste0(dropbox_directory, project_directory, "/NormalizedData/detection_p_values_minfi.Rdata"))
+```
+
+## 1.2 Normalizing using SeSaMe
+
+The same sample sheet is necessary as above. If you already read in and processed the sample sheet for minfi, the part below is not necessary to run again.
+```{r}
+sample_sheet <- read_csv(sample_sheet_file_name)
+
+sample_sheet <- sample_sheet %>%
+  mutate(idat_name = Basename)
+sample_sheet <- separate(sample_sheet, "Basename", into=c("Slide", "stripe"), sep="_")
+sample_sheet <- sample_sheet %>% 
+  mutate(Basename = paste0("~/Dropbox/", project_directory, "/idatfiles/", Slide, "/", idat_name))
+sample_sheet %>% select(Basename) %>% head
+```
+
+SeSaMe reads in and normalizes the data all in one go through the openSesame function. Below I'm running it with nondetection.mask = FALSE and quality.mask = FALSE which means that all values are reported instead of replaced with NAs, which is what SeSaMe usually does based on it's internal QC.
+```{r}
+# Read in the SeSaMe manifest
+manifest_sesame <- read_csv(manifest_file_name_sesame, col_types="ciif")
+# Run the openSesame pipeline to read in the data, normalize it and get back a data frame of normalized beta values
+normalized_betas_sesame <- as_tibble(openSesame(sample_sheet %>% select(idat_name, Basename) %>% deframe, 'custom', manifest_sesame, "beta", nondetection.mask = FALSE, quality.mask = FALSE), rownames="CGid")
+
+# If you want to remove SNP probes that are not methylation data you should uncomment the lines below
+#betas_sesame <- betas_sesame %>% 
+#  filter(!grepl("rs", CGid))
+
+# Save the normalized data to a file if you would like to
+#save(normalized_betas_sesame, file=paste0(dropbox_directory, project_directory, "/NormalizedData/", "all_probes_sesame_normalized.Rdata"))
+```
+
+SeSaMe also computes detection p values for each probe, which you can obtain into a data frame using the code below.
+```{r}
+# First have to read all the samples into a list of sigsets because that is the data structure sesame operates with.
+# We can't use the openSesame pipeline because we have to actually get the underlying sigset, not directly a data frame of beta values
+ssets <- sample_sheet %>% 
+  select(Basename) %>% 
+  as_vector %>% 
+  unname %>% 
+  map(~readIDATpair(., 'custom', manifest_sesame)) 
+
+# Constructing a detection p value data frame sample by sample
+detection_P_values_sesame <- tibble(CGid = manifest_sesame$Probe_ID)
+
+for (i in c(1:length(sample_sheet$idat_name))) {
+  sample_ID <- sample_sheet$idat_name[i]
+  sesame_p_vals <- ssets[[i]] %>% 
+    pOOBAH %>% 
+    noob %>%
+    dyeBiasCorrTypeINorm %>% 
+    pval %>% 
+    enframe(name="CGid", value="sesame_pval") 
+  colnames(sesame_p_vals)[2] = sample_ID
+  detection_P_values_sesame <- left_join(detection_P_values_sesame, sesame_p_vals, by="CGid")
+} 
+
+# Save the detection P value data frame to a file if you would like to
+save(detection_P_values_sesame, file=paste0(dropbox_directory, project_directory, "/NormalizedData/detection_p_values_sesame.Rdata"))
+```
+
+# 2. Subsetting your normalized data to only probes that map in your species of interest
+
+The section below subsets the normalized data to a set of probes of interest but keeps all the samples in the data frame. 
+
+Subsetting probes is based on a file containing which probes map to which genomes, created by Mike Thompson. There are currently two versions of this file, one including only probes that map uniquely to each genome, and one that also includes the probes that may map to multiple locations in each genome. These other probes might still provide meaningful signal, but it is potentially an average of multiple loci from the genome. As we don't yet fully understand the behaviors of those probes, below I am using the file containing uniquely mapping probes, but you should consider which file makes sense for your own particular analysis.
+
+First, read in the file. If you moved the `mappabilityData` folder in relation to this R notebook, you will have to update things below. You can read more about the format of this file in the `mappabilityData/README` file.
+```{r}
+# Read probe annotation file
+probe_mapping_file <- read_csv("mappabilityData/HorvathMammalChip_SpeciesGenomeCoordsUnique_v1.0.csv.gz", col_types = cols(.default = "c"))
+```
+
+The code below assumes you have the `normalized_betas_minfi` and `normalized_betas_sesame` data frames from the code above. If you don't, return to Part 1 and run that code.
+
+To do the subsetting you have to find the name of the species you care about among the column names, as the mapping data currently contains 191 genomes. It may be easier to browse the column names in the `HorvathMammalChip_SpeciesSourcesTaxonomyAndKeys_v1.0.csv` file in the `mappabilityData` folder. This file also contains additional information about each species. 
+
+In the example below I'm setting my species of interest to mouse (MusMusculus column name).
+
+```{r}
+# Set this variable to the column name of your species of interest.
+species_mappability_name = "MusMusculus"
+
+# Obtain a list of probes and coordinates for your species of interest
+species_probes <- probe_mapping_file %>%
+  select(one_of("probeID", species_mappability_name)) %>% # select just the coordinates for your species and the CG id columns
+  filter(!is.na(!!as.name(species_mappability_name))) # filter out probes with NA in the coordinates column because those don't map to your species
+```
+
+After the step above, `species_probes` will be a data frame with # probes mapping to your species rows and 2 columns.
+
+Now we can filter the normalized data frames to just the probes of interest.
+```{r}
+# Filter probes from the minfi data frame
+betas_minfi_species_filtered <- normalized_betas_minfi %>%
+  filter(CGid %in% species_probes$probeID)
+
+# Save them to a file if you would like to
+save(betas_minfi_species_filtered, file=paste0(dropbox_directory, project_directory, "/NormalizedData/", species_mappability_name, "_probes_minfi_normalized.Rdata"))
+
+# Filterprobes from the sesame betas data frame
+betas_sesame_species_filterd <- normalized_betas_sesame %>%
+  filter(CGid %in% species_probes$probeID)
+
+# Save them to a file
+save(betas_sesame_species_filterd, file=paste0(dropbox_directory, project_directory, "/NormalizedData/", species_mappability_name, "_probes_sesame_normalized.Rdata"))
+```
+
+# 3. Subsetting raw data before normalizing it
+
+The other option for normalizing is to subset the raw red/green channel intensities to only those coming from your probes of interest and then normalize the probes together. As of now, it doesn't seem like this makes to much of a difference, but we have not tested this thoroughly. It may be worth exploring this avenue, so I include how to do this as well.
+
+## 3.1 Using minfi
+
+The code below assumes you have a) the RGset data frame from Part 1 and b) the species_probes data frame for Part 2. Return to those sections of the notebook if you do not.
+```{r}
+# The following minfi function subsets the RGChannelSet to only the probeIDs provided in a list
+RGset_species <- subsetByLoci(RGset, include=species_probes$probeID)
+
+# You can now perform the same normalization as in Part 1 on the smaller RGset_species data frame
+Mset_species_subset = preprocessNoob(RGset_species)
+normalized_betas_minfi_species_subset = as_tibble(getBeta(Mset_species_subset), rownames="CGid")
+
+# Save to file if you would like to
+save(normalized_betas_minfi_species_subset, file=paste0(dropbox_directory, project_directory, "/NormalizedData/", species_mappability_name, "_probes_subset_first_minfi_normalized.Rdata"))
+```
+
+## 3.2  Using SeSaMe
+
+The code below assumes you have a) the manifest_sesame file name from the folder structure, b) the sample_sheet data frame from Part 1 and c) the probe_mapping_file and species_probes data frames from Part 2. Return to those sections and run that code if you have not already.
+
+```{r}
+# Subset the manifest file to only the probes for your species
+manifest_sesame_filtered <- manifest_sesame %>% 
+    filter(Probe_ID %in% species_probes$probeID) 
+
+# Normalize only your probes of interest
+normalized_betas_sesame_species_subset <- as_tibble(openSesame(sample_sheet %>% select(idat_name, Basename) %>% deframe, 'custom', manifest_sesame_filtered, "beta", nondetection.mask = FALSE, quality.mask = FALSE), rownames="CGid")
+
+# Save the normalized data to a file if you would like to
+save(normalized_betas_sesame_species_subset, file=paste0(dropbox_directory, project_directory, "/NormalizedData/", species_mappability_name, "_probes_subset_first_sesame_normalized.Rdata"))
+```
+
+# 4. Measuring bisulfite conversion efficiency in mice (code by Eilis Hannon)
+
+The code below extracts the data for the bisulfite conversion control probes included on the array and converts it to a summary statistic that can be used to assess whether the bisulfite conversion experimental step was successful. These probes are fully methylated and therefore, when their profiles are converted to beta values they should be ~100%. There are both type I and type II chemistries included in these control probes. We have observed that these probes do not work in all species, hence below we will calculate two summary statistics. In our experience, applying this approach to the human samples with either the 450K or EPIC array, most samples have a value > 90%. The code below assumes you have the RGset object from Part 1.
+
+```{r}
+
+## get intensity data for BS control probes
+greenChannel<-getGreen(RGset)
+redChannel<-getRed(RGset)
+ctrlAddress.I <- getControlAddress(RGset, controlType = c("BISULFITE CONVERSION I"))
+ctrlAddress.II <- getControlAddress(RGset, controlType = c("BISULFITE CONVERSION II"))
+
+### NOTE due to different chemistries type I and type II converstion controls need to be handled differently.
+## type I probes, for some red is M, for some green is M code; below automates selection of the right channel
+redGreater<-rowMeans(redChannel[ctrlAddress.I,]) > rowMeans(greenChannel[ctrlAddress.I,])
+
+## convert red and green channel intensities into "beta" values
+BScon1<-rbind(redChannel[ctrlAddress.I[which(redGreater)],]/(redChannel[ctrlAddress.I[which(redGreater)],]+greenChannel[ctrlAddress.I[which(redGreater)],]), greenChannel[ctrlAddress.I[which(!redGreater)],]/(redChannel[ctrlAddress.I[which(!redGreater)],]+greenChannel[ctrlAddress.I[which(!redGreater)],]))
+## type II probes
+BScon2<-redChannel[ctrlAddress.II,]/(redChannel[ctrlAddress.II,]+greenChannel[ctrlAddress.II,])
+
+BSconAll<-rbind(BScon1, BScon2)
+
+BS.conversionHuman<-apply(BSconAll, 2, median)*100 ## calculate statistic as median across all control probes NB this typically works well in humans
+BS.conversionMouse <-BScon2*100 ## only use type II probe as this is the only one that works in mouse. 
+
+qcMetrics<-cbind(BS.conversionHuman, BS.conversionMouse)
+save(qcMetrics, file = paste0(dropbox_directory, project_directory, "/BS_conversion_statistics.Rdata"))
+
+```
+
+# 5. Plotting
+
+Coming soon.
