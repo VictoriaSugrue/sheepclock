@@ -9,5 +9,5 @@ ggplot(obsexpminmaxselect, aes(x=averagecontrol, y=averageramwether50, colour=ra
   geom_errorbar(aes(xmin=min, xmax=max), width=0.3, colour="gray") +
   geom_abline() +
   theme_classic() +
-  ylab("% of Cistrome Output, Ram v Wether Top 50 (log10)") +
-  xlab("% of Cistrome Output, Control 50 x 1000 (log10)")
+  ylab("% of Cistrome Output, Top 50 asDMPs") +
+  xlab("% of Cistrome Output, Control")
