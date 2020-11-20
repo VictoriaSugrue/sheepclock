@@ -1,0 +1,433 @@
+OriginalOrderInBatch,ExternalSampleID,Basename,Age,ConfidenceInAgeEstimate,CanBeUsedForAgingStudies,PlateNumber,WellAddress,PlateName,ExternalSampleIDwithoutREP,StripTubeindex,PlateIndex,DNA.concentration,Volume,DOB,Date.collected,AgeInHDstudy,SpeciesLatinName,SpeciesCommonName,Tissue,TissueOriginal,Experiment,Genotype.HDexperiment.,Animal.ID,GENDER,Female,HD.status,GENOTYPE,CastratedMale,DNAmethBatch,CastrationSubset
+1,HD801,203203210131_R01C01,4.25,100,yes,Plate 01,A01,Plate 01,HD801,1,Plate 01,59,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD801,female,1,Control,Control,,1,
+2,HD807,203203210131_R02C01,4.25,100,yes,Plate 01,B01,Plate 01,HD807,2,Plate 01,41,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD807,female,1,Transgenic,Transgenic,,1,
+3,HD897,203203210131_R03C01,4,100,yes,Plate 01,C01,Plate 01,HD897,3,Plate 01,80,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD897,female,1,Control,Control,,1,
+4,HD859,203203210131_R04C01,4.25,100,yes,Plate 01,D01,Plate 01,HD859,4,Plate 01,371,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD859,male,0,Transgenic,Transgenic,,1,
+5,HD842,203203210131_R05C01,4.25,100,yes,Plate 01,E01,Plate 01,HD842,5,Plate 01,149,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD842,female,1,Control,Control,,1,
+6,HD1059,203203210131_R06C01,2.916666667,100,yes,Plate 01,F01,Plate 01,HD1059,6,Plate 01,58,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1059,female,1,Transgenic,Transgenic,,1,
+7,HD1072,203203210131_R01C02,2.916666667,100,yes,Plate 01,G01,Plate 01,HD1072,7,Plate 01,104,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1072,female,1,Control,Control,,1,
+8,HD988,203203210131_R02C02,3.666666667,100,yes,Plate 01,H01,Plate 01,HD988,8,Plate 01,87,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD988,female,1,Transgenic,Transgenic,,1,
+9,HD817,203203210131_R03C02,4.25,100,yes,Plate 01,A02,Plate 01,HD817,9,Plate 01,94,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD817,male,0,Control,Control,,1,
+10,REP_HD807,203203210131_R04C02,4.25,100,yes,Plate 01,B02,Plate 01,HD807,2,Plate 01,41,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD807,female,1,Transgenic,Transgenic,,1,
+11,HD935,203203210131_R05C02,4,100,yes,Plate 01,C02,Plate 01,HD935,11,Plate 01,100,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD935,female,1,Control,Control,,1,
+12,REP_HD859,203203210131_R06C02,4.25,100,yes,Plate 01,D02,Plate 01,HD859,4,Plate 01,371,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD859,male,0,Transgenic,Transgenic,,1,
+13,HD818,203203210135_R01C01,4.25,100,yes,Plate 01,E02,Plate 01,HD818,13,Plate 01,116,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD818,male,0,Control,Control,,1,
+14,REP_HD1059,203203210135_R02C01,2.916666667,100,yes,Plate 01,F02,Plate 01,HD1059,6,Plate 01,58,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1059,female,1,Transgenic,Transgenic,,1,
+15,HD870,203203210135_R03C01,4.25,100,yes,Plate 01,G02,Plate 01,HD870,15,Plate 01,89,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD870,male,0,Control,Control,,1,
+16,REP_HD988,203203210135_R04C01,3.666666667,100,yes,Plate 01,H02,Plate 01,HD988,8,Plate 01,87,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD988,female,1,Transgenic,Transgenic,,1,
+17,HD928,203203210135_R05C01,4,100,yes,Plate 01,A03,Plate 01,HD928,17,Plate 01,231,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD928,female,1,Control,Control,,1,
+18,HD880,203203210135_R06C01,4.25,100,yes,Plate 01,B03,Plate 01,HD880,18,Plate 01,17,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD880,female,1,Transgenic,Transgenic,,1,
+19,HD1078,203203210135_R01C02,2.916666667,100,yes,Plate 01,C03,Plate 01,HD1078,19,Plate 01,257,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1078,male,0,Control,Control,,1,
+20,HD853,203203210135_R02C02,4.25,100,yes,Plate 01,D03,Plate 01,HD853,20,Plate 01,55,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD853,male,0,Transgenic,Transgenic,,1,
+21,HD1099,203203210135_R03C02,2.916666667,100,yes,Plate 01,E03,Plate 01,HD1099,21,Plate 01,153,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1099,male,0,Control,Control,,1,
+22,HD869,203203210135_R04C02,4.25,100,yes,Plate 01,F03,Plate 01,HD869,22,Plate 01,58,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD869,female,1,Transgenic,Transgenic,,1,
+23,REP_HD801,203203210135_R05C02,4.25,100,yes,Plate 01,G03,Plate 01,HD801,1,Plate 01,59,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD801,female,1,Control,Control,,1,
+24,HD824,203203210135_R06C02,4.25,100,yes,Plate 01,H03,Plate 01,HD824,24,Plate 01,165,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD824,female,1,Transgenic,Transgenic,,1,
+25,REP_HD897,203203210022_R01C01,4,100,yes,Plate 01,A04,Plate 01,HD897,3,Plate 01,80,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD897,female,1,Control,Control,,1,
+26,HD805,203203210022_R02C01,4.25,100,yes,Plate 01,B04,Plate 01,HD805,26,Plate 01,155,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD805,female,1,Transgenic,Transgenic,,1,
+27,REP_HD842,203203210022_R03C01,4.25,100,yes,Plate 01,C04,Plate 01,HD842,5,Plate 01,149,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD842,female,1,Control,Control,,1,
+28,HD900,203203210022_R04C01,4,100,yes,Plate 01,D04,Plate 01,HD900,28,Plate 01,84,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD900,female,1,Transgenic,Transgenic,,1,
+29,REP_HD1072,203203210022_R05C01,2.916666667,100,yes,Plate 01,E04,Plate 01,HD1072,7,Plate 01,104,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1072,female,1,Control,Control,,1,
+30,HD816,203203210022_R06C01,4.25,100,yes,Plate 01,F04,Plate 01,HD816,30,Plate 01,166,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD816,female,1,Transgenic,Transgenic,,1,
+31,REP_HD817,203203210022_R01C02,4.25,100,yes,Plate 01,G04,Plate 01,HD817,9,Plate 01,94,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD817,male,0,Control,Control,,1,
+32,HD317,203203210022_R02C02,5.758333333,100,yes,Plate 01,H04,Plate 01,HD317,32,Plate 01,103,20,6-Aug,5/23/2012,5.758333333,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD317,male,0,Transgenic,Transgenic,,1,
+33,REP_HD935,203203210022_R03C02,4,100,yes,Plate 01,A05,Plate 01,HD935,11,Plate 01,100,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD935,female,1,Control,Control,,1,
+34,HD856,203203210022_R04C02,4.25,100,yes,Plate 01,B05,Plate 01,HD856,34,Plate 01,215,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD856,female,1,Transgenic,Transgenic,,1,
+35,REP_HD818,203203210022_R05C02,4.25,100,yes,Plate 01,C05,Plate 01,HD818,13,Plate 01,116,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD818,male,0,Control,Control,,1,
+36,HD841,203203210022_R06C02,4.25,100,yes,Plate 01,D05,Plate 01,HD841,36,Plate 01,219,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD841,female,1,Transgenic,Transgenic,,1,
+37,REP_HD870,203203210024_R01C01,4.25,100,yes,Plate 01,E05,Plate 01,HD870,15,Plate 01,89,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD870,male,0,Control,Control,,1,
+38,HD376,203203210024_R02C01,5.238888889,100,yes,Plate 01,F05,Plate 01,HD376,38,Plate 01,121,20,7-Feb,5/23/2012,5.238888889,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD376,female,1,Transgenic,Transgenic,,1,
+39,REP_HD928,203203210024_R03C01,4,100,yes,Plate 01,G05,Plate 01,HD928,17,Plate 01,231,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD928,female,1,Control,Control,,1,
+40,HD1055,203203210024_R04C01,2.916666667,100,yes,Plate 01,H05,Plate 01,HD1055,40,Plate 01,281,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1055,female,1,Transgenic,Transgenic,,1,
+41,REP_HD1078,203203210024_R05C01,2.916666667,100,yes,Plate 01,A06,Plate 01,HD1078,19,Plate 01,257,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1078,male,0,Control,Control,,1,
+42,HD892,203203210024_R06C01,4.25,100,yes,Plate 01,B06,Plate 01,HD892,42,Plate 01,51,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD892,male,0,Transgenic,Transgenic,,1,
+43,REP_HD1099,203203210024_R01C02,2.916666667,100,yes,Plate 01,C06,Plate 01,HD1099,21,Plate 01,153,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1099,male,0,Control,Control,,1,
+44,HD855,203203210024_R02C02,4.25,100,yes,Plate 01,D06,Plate 01,HD855,44,Plate 01,261,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD855,female,1,Transgenic,Transgenic,,1,
+45,HD843,203203210024_R03C02,4.25,100,yes,Plate 01,E06,Plate 01,HD843,45,Plate 01,129,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD843,female,1,Control,Control,,1,
+46,HD896,203203210024_R04C02,4,100,yes,Plate 01,F06,Plate 01,HD896,46,Plate 01,283,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD896,female,1,Transgenic,Transgenic,,1,
+47,HD811,203203210024_R05C02,4.25,100,yes,Plate 01,G06,Plate 01,HD811,47,Plate 01,37,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD811,female,1,Control,Control,,1,
+48,HD828,203203210024_R06C02,4.25,100,yes,Plate 01,H06,Plate 01,HD828,48,Plate 01,78,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD828,female,1,Transgenic,Transgenic,,1,
+49,HD933,203203210118_R01C01,3.863888889,100,yes,Plate 01,A07,Plate 01,HD933,49,Plate 01,315,20,3/20/2009,1/31/2013,3.863888889,Ovis aries,Sheep,Blood,Blood,HD,Control,HD933,male,0,Control,Control,,1,
+50,HD985,203203210118_R02C01,3.666666667,100,yes,Plate 01,B07,Plate 01,HD985,50,Plate 01,77,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD985,female,1,Transgenic,Transgenic,,1,
+51,HD862,203203210118_R03C01,4.25,100,yes,Plate 01,C07,Plate 01,HD862,51,Plate 01,137,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD862,female,1,Control,Control,,1,
+52,HD858,203203210118_R04C01,4.25,100,yes,Plate 01,D07,Plate 01,HD858,52,Plate 01,85,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD858,female,1,Transgenic,Transgenic,,1,
+53,HD914,203203210118_R05C01,4,100,yes,Plate 01,E07,Plate 01,HD914,53,Plate 01,337,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD914,female,1,Control,Control,,1,
+54,HD849,203203210118_R06C01,4.25,100,yes,Plate 01,F07,Plate 01,HD849,54,Plate 01,94,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD849,female,1,Transgenic,Transgenic,,1,
+55,HD798,203203210118_R01C02,4.25,100,yes,Plate 01,G07,Plate 01,HD798,55,Plate 01,191,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD798,female,1,Control,Control,,1,
+56,HD1068,203203210118_R02C02,2.916666667,100,yes,Plate 01,H07,Plate 01,HD1068,56,Plate 01,312,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1068,male,0,Transgenic,Transgenic,,1,
+57,HD872,203203210118_R03C02,4.25,100,yes,Plate 01,A08,Plate 01,HD872,57,Plate 01,117,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD872,male,0,Control,Control,,1,
+58,HD1000,203203210118_R04C02,3.666666667,100,yes,Plate 01,B08,Plate 01,HD1000,58,Plate 01,47,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1000,male,0,Transgenic,Transgenic,,1,
+59,HD813,203203210118_R05C02,4.25,100,yes,Plate 01,C08,Plate 01,HD813,59,Plate 01,108,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD813,male,0,Control,Control,,1,
+60,HD913,203203210118_R06C02,4,100,yes,Plate 01,D08,Plate 01,HD913,60,Plate 01,110,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD913,female,1,Transgenic,Transgenic,,1,
+61,HD812,203203210159_R01C01,4.25,100,yes,Plate 01,E08,Plate 01,HD812,61,Plate 01,151,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD812,female,1,Control,Control,,1,
+62,HD819,203203210159_R02C01,4.25,100,yes,Plate 01,F08,Plate 01,HD819,62,Plate 01,88,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD819,male,0,Transgenic,Transgenic,,1,
+63,HD845,203203210159_R03C01,4.25,100,yes,Plate 01,G08,Plate 01,HD845,63,Plate 01,96,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD845,female,1,Control,Control,,1,
+64,HD827,203203210159_R04C01,4.25,100,yes,Plate 01,H08,Plate 01,HD827,64,Plate 01,90,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD827,male,0,Transgenic,Transgenic,,1,
+65,HD1076,203203210159_R05C01,2.916666667,100,yes,Plate 01,A09,Plate 01,HD1076,65,Plate 01,96,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1076,male,0,Control,Control,,1,
+66,HD1089,203203210159_R06C01,2.916666667,100,yes,Plate 01,B09,Plate 01,HD1089,66,Plate 01,12,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1089,male,0,Transgenic,Transgenic,,1,
+67,HD882,203203210159_R01C02,4.25,100,yes,Plate 01,C09,Plate 01,HD882,67,Plate 01,36,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD882,female,1,Control,Control,,1,
+68,HD927,203203210159_R02C02,4,100,yes,Plate 01,D09,Plate 01,HD927,68,Plate 01,21,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD927,female,1,Transgenic,Transgenic,,1,
+69,HD931,203203210159_R03C02,4,100,yes,Plate 01,E09,Plate 01,HD931,69,Plate 01,44,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD931,female,1,Control,Control,,1,
+70,HD1098,203203210159_R04C02,2.916666667,100,yes,Plate 01,F09,Plate 01,HD1098,70,Plate 01,66,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1098,female,1,Transgenic,Transgenic,,1,
+71,HD830,203203210159_R05C02,4.25,100,yes,Plate 01,G09,Plate 01,HD830,71,Plate 01,181,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD830,female,1,Control,Control,,1,
+72,HD327,203203210159_R06C02,6.436111111,100,yes,Plate 01,H09,Plate 01,HD327,72,Plate 01,43,20,8/23/2006,1/30/2013,6.436111111,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD327,male,0,Transgenic,Transgenic,,1,
+73,HD852,203203210117_R01C01,4.25,100,yes,Plate 01,A10,Plate 01,HD852,73,Plate 01,72,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD852,female,1,Control,Control,,1,
+74,HD383 (HD378),203203210117_R02C01,5.238888889,100,yes,Plate 01,B10,Plate 01,HD383 (HD378),74,Plate 01,87,20,7-Feb,5/23/2012,5.238888889,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD383 (HD378),male,0,Transgenic,Transgenic,,1,
+75,HD335,203203210117_R03C01,5.75,100,yes,Plate 01,C10,Plate 01,HD335,75,Plate 01,45,20,6-Aug,5/23/2012,5.75,Ovis aries,Sheep,Blood,Blood,HD,Control,HD335,male,0,Control,Control,,1,
+76,HD834,203203210117_R04C01,4.25,100,yes,Plate 01,D10,Plate 01,HD834,76,Plate 01,47,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD834,female,1,Transgenic,Transgenic,,1,
+77,HD907,203203210117_R05C01,4,100,yes,Plate 01,E10,Plate 01,HD907,77,Plate 01,296,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD907,female,1,Control,Control,,1,
+78,HD1060,203203210117_R06C01,2.916666667,100,yes,Plate 01,F10,Plate 01,HD1060,78,Plate 01,43,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1060,female,1,Transgenic,Transgenic,,1,
+79,HD916,203203210117_R01C02,4,100,yes,Plate 01,G10,Plate 01,HD916,79,Plate 01,363,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD916,male,0,Control,Control,,1,
+80,HD922,203203210117_R02C02,4,100,yes,Plate 01,H10,Plate 01,HD922,80,Plate 01,56,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD922,female,1,Transgenic,Transgenic,,1,
+81,HD901,203203210117_R03C02,4,100,yes,Plate 01,A11,Plate 01,HD901,81,Plate 01,91,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD901,male,0,Control,Control,,1,
+82,HD1061,203203210117_R04C02,2.916666667,100,yes,Plate 01,B11,Plate 01,HD1061,82,Plate 01,44,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1061,male,0,Transgenic,Transgenic,,1,
+83,HD899,203203210117_R05C02,4,100,yes,Plate 01,C11,Plate 01,HD899,83,Plate 01,101,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD899,male,0,Control,Control,,1,
+84,HD822,203203210117_R06C02,4.25,100,yes,Plate 01,D11,Plate 01,HD822,84,Plate 01,13,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD822,female,1,Transgenic,Transgenic,,1,
+85,HD1095,203203210169_R01C01,2.916666667,100,yes,Plate 01,E11,Plate 01,HD1095,85,Plate 01,74,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1095,male,0,Control,Control,,1,
+86,HD861,203203210169_R02C01,4.25,100,yes,Plate 01,F11,Plate 01,HD861,86,Plate 01,242,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD861,female,1,Transgenic,Transgenic,,1,
+87,HD808,203203210169_R03C01,4.25,100,yes,Plate 01,G11,Plate 01,HD808,87,Plate 01,160,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD808,female,1,Control,Control,,1,
+88,HD838,203203210169_R04C01,4.25,100,yes,Plate 01,H11,Plate 01,HD838,88,Plate 01,51,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD838,female,1,Transgenic,Transgenic,,1,
+89,HD850,203203210169_R05C01,4.25,100,yes,Plate 01,A12,Plate 01,HD850,89,Plate 01,328,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD850,female,1,Control,Control,,1,
+90,HD377,203203210169_R06C01,5.238888889,100,yes,Plate 01,B12,Plate 01,HD377,90,Plate 01,60,20,7-Feb,5/23/2012,5.238888889,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD377,female,1,Transgenic,Transgenic,,1,
+91,HD357 (HD338),203203210169_R01C02,5.741666667,100,yes,Plate 01,C12,Plate 01,HD357 (HD338),91,Plate 01,161,20,6-Aug,5/23/2012,5.741666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD357 (HD338),male,0,Control,Control,,1,
+92,HD832,203203210169_R02C02,4.25,100,yes,Plate 01,D12,Plate 01,HD832,92,Plate 01,91,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD832,female,1,Transgenic,Transgenic,,1,
+93,HD863,203203210169_R03C02,4.25,100,yes,Plate 01,E12,Plate 01,HD863,93,Plate 01,162,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD863,female,1,Control,Control,,1,
+94,HD889,203203210169_R04C02,4.25,100,yes,Plate 01,F12,Plate 01,HD889,94,Plate 01,159,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD889,female,1,Transgenic,Transgenic,,1,
+95,HD1058,203203210169_R05C02,2.916666667,100,yes,Plate 01,G12,Plate 01,HD1058,95,Plate 01,48,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1058,male,0,Control,Control,,1,
+96,HD909,203203210169_R06C02,4,100,yes,Plate 01,H12,Plate 01,HD909,96,Plate 01,95,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD909,female,1,Transgenic,Transgenic,,1,
+97,HD879,203203210111_R01C01,4.25,100,yes,Plate 02,A01,Plate 02,HD879,97,Plate 02,47,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD879,male,0,Control,Control,,1,
+98,HD847,203203210111_R02C01,4.25,100,yes,Plate 02,B01,Plate 02,HD847,98,Plate 02,343,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD847,female,1,Transgenic,Transgenic,,1,
+99,HD271,203203210111_R03C01,6.986111111,100,yes,Plate 02,C01,Plate 02,HD271,99,Plate 02,91,20,2/5/2006,1/30/2013,6.986111111,Ovis aries,Sheep,Blood,Blood,HD,Control,HD271,female,1,Control,Control,,1,
+100,HD848,203203210111_R04C01,4.25,100,yes,Plate 02,D01,Plate 02,HD848,100,Plate 02,50,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD848,male,0,Transgenic,Transgenic,,1,
+101,HD374,203203210111_R05C01,5.997222222,100,yes,Plate 02,E01,Plate 02,HD374,101,Plate 02,94,20,7-Feb,1/30/2013,5.997222222,Ovis aries,Sheep,Blood,Blood,HD,Control,HD374,male,0,Control,Control,,1,
+102,HD910,203203210111_R06C01,4,100,yes,Plate 02,F01,Plate 02,HD910,102,Plate 02,142,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD910,female,1,Transgenic,Transgenic,,1,
+103,HD924,203203210111_R01C02,3.891666667,100,yes,Plate 02,G01,Plate 02,HD924,103,Plate 02,286,20,3/10/2009,1/31/2013,3.891666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD924,male,0,Control,Control,,1,
+104,HD1054,203203210111_R02C02,2.916666667,100,yes,Plate 02,H01,Plate 02,HD1054,104,Plate 02,72,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1054,male,0,Transgenic,Transgenic,,1,
+105,HD364,203203210111_R03C02,5.997222222,100,yes,Plate 02,A02,Plate 02,HD364,105,Plate 02,83,20,7-Feb,1/30/2013,5.997222222,Ovis aries,Sheep,Blood,Blood,HD,Control,HD364,male,0,Control,Control,,1,
+106,HD1067,203203210111_R04C02,2.916666667,100,yes,Plate 02,B02,Plate 02,HD1067,106,Plate 02,55,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1067,female,1,Transgenic,Transgenic,,1,
+107,HD919,203203210111_R05C02,4,100,yes,Plate 02,C02,Plate 02,HD919,107,Plate 02,271,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD919,female,1,Control,Control,,1,
+108,HD839,203203210111_R06C02,4.25,100,yes,Plate 02,D02,Plate 02,HD839,108,Plate 02,141,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD839,male,0,Transgenic,Transgenic,,1,
+109,HD379,203203210145_R01C01,5.997222222,100,yes,Plate 02,E02,Plate 02,HD379,109,Plate 02,204,20,7-Feb,1/30/2013,5.997222222,Ovis aries,Sheep,Blood,Blood,HD,Control,HD379,male,0,Control,Control,,1,
+110,HD339,203203210145_R02C01,5.747222222,100,yes,Plate 02,F02,Plate 02,HD339,110,Plate 02,154,20,6-Aug,5/23/2012,5.747222222,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD339,male,0,Transgenic,Transgenic,,1,
+111,HD1088,203203210145_R03C01,2.916666667,100,yes,Plate 02,G02,Plate 02,HD1088,111,Plate 02,144,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1088,male,0,Control,Control,,1,
+112,HD1056,203203210145_R04C01,2.916666667,100,yes,Plate 02,H02,Plate 02,HD1056,112,Plate 02,194,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1056,female,1,Transgenic,Transgenic,,1,
+113,HD918,203203210145_R05C01,4,100,yes,Plate 02,A03,Plate 02,HD918,113,Plate 02,106,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD918,female,1,Control,Control,,1,
+114,HD878,203203210145_R06C01,4.25,100,yes,Plate 02,B03,Plate 02,HD878,114,Plate 02,32,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD878,female,1,Transgenic,Transgenic,,1,
+115,HD373,203203210145_R01C02,5.244444444,100,yes,Plate 02,C03,Plate 02,HD373,115,Plate 02,140,20,7-Feb,5/23/2012,5.244444444,Ovis aries,Sheep,Blood,Blood,HD,Control,HD373,female,1,Control,Control,,1,
+116,HD260,203203210145_R02C02,6.997222222,100,yes,Plate 02,D03,Plate 02,HD260,116,Plate 02,113,20,6-Feb,1/30/2013,6.997222222,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD260,female,1,Transgenic,Transgenic,,1,
+117,HD334,203203210145_R03C02,5.75,100,yes,Plate 02,E03,Plate 02,HD334,117,Plate 02,168,20,6-Aug,5/23/2012,5.75,Ovis aries,Sheep,Blood,Blood,HD,Control,HD334,male,0,Control,Control,,1,
+118,HD997,203203210145_R04C02,3.666666667,100,yes,Plate 02,F03,Plate 02,HD997,118,Plate 02,61,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD997,male,0,Transgenic,Transgenic,,1,
+119,HD1087,203203210145_R05C02,2.916666667,100,yes,Plate 02,G03,Plate 02,HD1087,119,Plate 02,46,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1087,male,0,Control,Control,,1,
+120,HD804,203203210145_R06C02,4.25,100,yes,Plate 02,H03,Plate 02,HD804,120,Plate 02,160,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD804,male,0,Transgenic,Transgenic,,1,
+121,HD1084,203203210173_R01C01,2.916666667,100,yes,Plate 02,A04,Plate 02,HD1084,121,Plate 02,100,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1084,female,1,Control,Control,,1,
+122,HD929,203203210173_R02C01,4,100,yes,Plate 02,B04,Plate 02,HD929,122,Plate 02,73,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD929,female,1,Transgenic,Transgenic,,1,
+123,HD337,203203210173_R03C01,5.747222222,100,yes,Plate 02,C04,Plate 02,HD337,123,Plate 02,144,20,6-Aug,5/23/2012,5.747222222,Ovis aries,Sheep,Blood,Blood,HD,Control,HD337,male,0,Control,Control,,1,
+124,HD844,203203210173_R04C01,4.25,100,yes,Plate 02,D04,Plate 02,HD844,124,Plate 02,111,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD844,male,0,Transgenic,Transgenic,,1,
+125,HD865,203203210173_R05C01,4.25,100,yes,Plate 02,E04,Plate 02,HD865,125,Plate 02,103,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD865,male,0,Control,Control,,1,
+126,HD851,203203210173_R06C01,4.25,100,yes,Plate 02,F04,Plate 02,HD851,126,Plate 02,61,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD851,female,1,Transgenic,Transgenic,,1,
+127,HD932,203203210173_R01C02,4,100,yes,Plate 02,G04,Plate 02,HD932,127,Plate 02,78,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD932,female,1,Control,Control,,1,
+128,HD903,203203210173_R02C02,4,100,yes,Plate 02,H04,Plate 02,HD903,128,Plate 02,115,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD903,female,1,Transgenic,Transgenic,,1,
+129,HD915,203203210173_R03C02,4,100,yes,Plate 02,A05,Plate 02,HD915,129,Plate 02,75,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD915,male,0,Control,Control,,1,
+130,HD372,203203210173_R04C02,5.244444444,100,yes,Plate 02,B05,Plate 02,HD372,130,Plate 02,124,20,7-Feb,5/23/2012,5.244444444,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD372,female,1,Transgenic,Transgenic,,1,
+131,HD829,203203210173_R05C02,4.25,100,yes,Plate 02,C05,Plate 02,HD829,131,Plate 02,301,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD829,male,0,Control,Control,,1,
+132,HD996,203203210173_R06C02,3.666666667,100,yes,Plate 02,D05,Plate 02,HD996,132,Plate 02,100,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD996,female,1,Transgenic,Transgenic,,1,
+133,HD1075,203203210079_R01C01,2.916666667,100,yes,Plate 02,E05,Plate 02,HD1075,133,Plate 02,61,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1075,female,1,Control,Control,,1,
+134,HD989,203203210079_R02C01,3.666666667,100,yes,Plate 02,F05,Plate 02,HD989,134,Plate 02,74,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD989,male,0,Transgenic,Transgenic,,1,
+135,HD992,203203210079_R03C01,3.666666667,100,yes,Plate 02,G05,Plate 02,HD992,135,Plate 02,161,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD992,male,0,Control,Control,,1,
+136,HD831,203203210079_R04C01,4.25,100,yes,Plate 02,H05,Plate 02,HD831,136,Plate 02,153,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD831,female,1,Transgenic,Transgenic,,1,
+137,HD930,203203210079_R05C01,4,100,yes,Plate 02,A06,Plate 02,HD930,137,Plate 02,123,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD930,female,1,Control,Control,,1,
+138,HD835,203203210079_R06C01,4.25,100,yes,Plate 02,B06,Plate 02,HD835,138,Plate 02,210,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD835,female,1,Transgenic,Transgenic,,1,
+139,HD860,203203210079_R01C02,4.25,100,yes,Plate 02,C06,Plate 02,HD860,139,Plate 02,138,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD860,male,0,Control,Control,,1,
+140,HD366,203203210079_R02C02,5.997222222,100,yes,Plate 02,D06,Plate 02,HD366,140,Plate 02,63,20,7-Feb,1/30/2013,5.997222222,Ovis aries,Sheep,Blood,Blood,HD,transgenic,HD366,male,0,Transgenic,Transgenic,,1,
+141,HD1094,203203210079_R03C02,2.916666667,100,yes,Plate 02,E06,Plate 02,HD1094,141,Plate 02,74,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1094,male,0,Control,Control,,1,
+142,HD994,203203210079_R04C02,3.666666667,100,yes,Plate 02,F06,Plate 02,HD994,142,Plate 02,103,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD994,female,1,Transgenic,Transgenic,,1,
+143,HD840,203203210079_R05C02,4.25,100,yes,Plate 02,G06,Plate 02,HD840,143,Plate 02,130,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD840,male,0,Control,Control,,1,
+144,HD984,203203210079_R06C02,3.666666667,100,yes,Plate 02,H06,Plate 02,HD984,144,Plate 02,403,20,9-Jun,1/31/2013,3.666666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD984,female,1,Transgenic,Transgenic,,1,
+145,HD1065,203203210115_R01C01,2.916666667,100,yes,Plate 02,A07,Plate 02,HD1065,145,Plate 02,199,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1065,male,0,Control,Control,,1,
+146,HD917,203203210115_R02C01,4,100,yes,Plate 02,B07,Plate 02,HD917,146,Plate 02,77,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD917,female,1,Transgenic,Transgenic,,1,
+147,HD921,203203210115_R03C01,3.9,100,yes,Plate 02,C07,Plate 02,HD921,147,Plate 02,118,20,3/7/2009,1/31/2013,3.9,Ovis aries,Sheep,Blood,Blood,HD,Control,HD921,male,0,Control,Control,,1,
+148,HD1057,203203210115_R04C01,2.916666667,100,yes,Plate 02,D07,Plate 02,HD1057,148,Plate 02,124,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1057,female,1,Transgenic,Transgenic,,1,
+149,HD1071,203203210115_R05C01,2.916666667,100,yes,Plate 02,E07,Plate 02,HD1071,149,Plate 02,144,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Control,HD1071,male,0,Control,Control,,1,
+150,HD890,203203210115_R06C01,4.25,100,yes,Plate 02,F07,Plate 02,HD890,150,Plate 02,165,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD890,male,0,Transgenic,Transgenic,,1,
+151,HD902,203203210115_R01C02,4,100,yes,Plate 02,G07,Plate 02,HD902,151,Plate 02,214,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD902,female,1,Control,Control,,1,
+152,HD912,203203210115_R02C02,4,100,yes,Plate 02,H07,Plate 02,HD912,152,Plate 02,149,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD912,female,1,Transgenic,Transgenic,,1,
+153,HD881,203203210115_R03C02,4.25,100,yes,Plate 02,A08,Plate 02,HD881,153,Plate 02,238,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD881,male,0,Control,Control,,1,
+154,HD820,203203210115_R04C02,4.25,100,yes,Plate 02,B08,Plate 02,HD820,154,Plate 02,307,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD820,female,1,Transgenic,Transgenic,,1,
+155,HD873,203203210115_R05C02,4.25,100,yes,Plate 02,C08,Plate 02,HD873,155,Plate 02,71,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD873,female,1,Control,Control,,1,
+156,HD810,203203210115_R06C02,4.25,100,yes,Plate 02,D08,Plate 02,HD810,156,Plate 02,126,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD810,male,0,Transgenic,Transgenic,,1,
+157,HD888,203203210187_R01C01,4.25,100,yes,Plate 02,E08,Plate 02,HD888,157,Plate 02,109,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD888,female,1,Control,Control,,1,
+158,HD1077,203203210187_R02C01,2.916666667,100,yes,Plate 02,F08,Plate 02,HD1077,158,Plate 02,126,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1077,male,0,Transgenic,Transgenic,,1,
+159,HD911,203203210187_R03C01,4,100,yes,Plate 02,G08,Plate 02,HD911,159,Plate 02,191,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD911,male,0,Control,Control,,1,
+160,HD1073,203203210187_R04C01,2.916666667,100,yes,Plate 02,H08,Plate 02,HD1073,160,Plate 02,28,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1073,female,1,Transgenic,Transgenic,,1,
+161,HD886,203203210187_R05C01,4.25,100,yes,Plate 02,A09,Plate 02,HD886,161,Plate 02,331,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD886,male,0,Control,Control,,1,
+162,HD866,203203210187_R06C01,4.25,100,yes,Plate 02,B09,Plate 02,HD866,162,Plate 02,180,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD866,male,0,Transgenic,Transgenic,,1,
+163,HD920,203203210187_R01C02,4,100,yes,Plate 02,C09,Plate 02,HD920,163,Plate 02,124,20,9-Feb,1/31/2013,4,Ovis aries,Sheep,Blood,Blood,HD,Control,HD920,male,0,Control,Control,,1,
+164,HD1074,203203210187_R02C02,2.916666667,100,yes,Plate 02,D09,Plate 02,HD1074,164,Plate 02,142,20,10-Mar,1/31/2013,2.916666667,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD1074,female,1,Transgenic,Transgenic,,1,
+165,HD854,203203210187_R03C02,4.25,100,yes,Plate 02,E09,Plate 02,HD854,165,Plate 02,223,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Control,HD854,male,0,Control,Control,,1,
+166,HD868,203203210187_R04C02,4.25,100,yes,Plate 02,F09,Plate 02,HD868,166,Plate 02,246,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD868,male,0,Transgenic,Transgenic,,1,
+167,HD382,203203210187_R05C02,5.227777778,100,yes,Plate 02,G09,Plate 02,HD382,167,Plate 02,148,20,7-Mar,5/23/2012,5.227777778,Ovis aries,Sheep,Blood,Blood,HD,Control,HD382,female,1,Control,Control,,1,
+168,HD876,203203210187_R06C02,4.25,100,yes,Plate 02,H09,Plate 02,HD876,168,Plate 02,183,20,8-Nov,2/1/2013,4.25,Ovis aries,Sheep,Blood,Blood,HD,Transgenic,HD876,male,0,Transgenic,Transgenic,,1,
+169,BHClock1_1B12_2012,203203210158_R01C01,5.169062286,100,yes,Plate 02,A10,Plate 02,BHClock1_1B12_2012,169,Plate 02,25,57,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+170,BHClock1_1A3_2013,203203210158_R02C01,4.183436003,100,yes,Plate 02,B10,Plate 02,BHClock1_1A3_2013,170,Plate 02,25,63.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+171,BHClock1_4A1_2008,203203210158_R03C01,9.11156742,100,yes,Plate 02,C10,Plate 02,BHClock1_4A1_2008,171,Plate 02,25,34,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+172,BHClock1_1A5_2011,203203210158_R04C01,6.154688569,100,yes,Plate 02,D10,Plate 02,BHClock1_1A5_2011,172,Plate 02,25,100.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+173,BHClock1_1D4_2015,203203210158_R05C01,2.212183436,100,yes,Plate 02,E10,Plate 02,BHClock1_1D4_2015,173,Plate 02,25,96,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+174,BHClock1_5H1_2017,203203210158_R06C01,0.10403833,100,yes,Plate 02,F10,Plate 02,BHClock1_5H1_2017,174,Plate 02,25,31.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+175,BHClock1_3H8_2011,203203210158_R01C02,6.154688569,100,yes,Plate 02,G10,Plate 02,BHClock1_3H8_2011,175,Plate 02,25,114.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+176,BHClock1_3A4_2015,203203210158_R02C02,2.212183436,100,yes,Plate 02,H10,Plate 02,BHClock1_3A4_2015,176,Plate 02,25,124.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+177,BHClock1_3A5_2014,203203210158_R03C02,3.197809719,100,yes,Plate 02,A11,Plate 02,BHClock1_3A5_2014,177,Plate 02,25,82.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+178,BHClock1_2C7_2015,203203210158_R04C02,2.212183436,100,yes,Plate 02,B11,Plate 02,BHClock1_2C7_2015,178,Plate 02,25,126.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+179,BHClock1_1H7_2015,203203210158_R05C02,2.212183436,100,yes,Plate 02,C11,Plate 02,BHClock1_1H7_2015,179,Plate 02,25,82.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+180,BHClock1_1C10_2010,203203210158_R06C02,7.140314853,100,yes,Plate 02,D11,Plate 02,BHClock1_1C10_2010,180,Plate 02,25,76.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+181,BHClock1_3G11_2012,203203210139_R01C01,5.169062286,100,yes,Plate 02,E11,Plate 02,BHClock1_3G11_2012,181,Plate 02,25,41.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+182,BHClock1_3C1_2010,203203210139_R02C01,7.140314853,100,yes,Plate 02,F11,Plate 02,BHClock1_3C1_2010,182,Plate 02,25,80,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+183,BHClock1_3C12_2013,203203210139_R03C01,4.183436003,100,yes,Plate 02,G11,Plate 02,BHClock1_3C12_2013,183,Plate 02,25,85.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+184,BHClock1_1F3_2010,203203210139_R04C01,7.140314853,100,yes,Plate 02,H11,Plate 02,BHClock1_1F3_2010,184,Plate 02,25,67.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+185,BHClock1_5C5_2017,203203210139_R05C01,0.10403833,100,yes,Plate 02,A12,Plate 02,BHClock1_5C5_2017,185,Plate 02,25,26.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+186,BHClock1_1F10_2015,203203210139_R06C01,2.212183436,100,yes,Plate 02,B12,Plate 02,BHClock1_1F10_2015,186,Plate 02,25,60.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+187,BHClock1_5A2_2017,203203210139_R01C02,0.10403833,100,yes,Plate 02,C12,Plate 02,BHClock1_5A2_2017,187,Plate 02,25,36.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+188,BHClock1_3B2_2014,203203210139_R02C02,3.197809719,100,yes,Plate 02,D12,Plate 02,BHClock1_3B2_2014,188,Plate 02,25,52.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+189,BHClock1_4D2_2016,203203210139_R03C02,1.226557153,100,yes,Plate 02,E12,Plate 02,BHClock1_4D2_2016,189,Plate 02,25,74.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+190,BHClock1_3E6_2008,203203210139_R04C02,9.11156742,100,yes,Plate 02,F12,Plate 02,BHClock1_3E6_2008,190,Plate 02,25,116.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+191,BHClock1_4D9_2016,203203210139_R05C02,1.226557153,100,yes,Plate 02,G12,Plate 02,BHClock1_4D9_2016,191,Plate 02,25,101.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+192,BHClock1_3H10_2008,203203210139_R06C02,9.11156742,100,yes,Plate 02,H12,Plate 02,BHClock1_3H10_2008,192,Plate 02,25,69.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+193,BHClock1_3H4_2012,203203210098_R01C01,5.169062286,100,yes,Plate 03,A01,Plate 03,BHClock1_3H4_2012,193,Plate 03,25,55.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+194,BHClock1_1D2_2009,203203210098_R02C01,8.125941136,100,yes,Plate 03,B01,Plate 03,BHClock1_1D2_2009,194,Plate 03,25,94.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+195,BHClock1_1H1_2015,203203210098_R03C01,2.212183436,100,yes,Plate 03,C01,Plate 03,BHClock1_1H1_2015,195,Plate 03,25,71.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+196,BHClock1_3A6_2009,203203210098_R04C01,8.125941136,100,yes,Plate 03,D01,Plate 03,BHClock1_3A6_2009,196,Plate 03,25,127.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+197,BHClock1_3D4_2011,203203210098_R05C01,6.154688569,100,yes,Plate 03,E01,Plate 03,BHClock1_3D4_2011,197,Plate 03,25,50.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+198,BHClock1_5G7_2017,203203210098_R06C01,0.10403833,100,yes,Plate 03,F01,Plate 03,BHClock1_5G7_2017,198,Plate 03,25,26.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+199,BHClock1_4E12_2016,203203210098_R01C02,1.226557153,100,yes,Plate 03,G01,Plate 03,BHClock1_4E12_2016,199,Plate 03,25,101.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+200,BHClock1_1H12_2009,203203210098_R02C02,8.125941136,100,yes,Plate 03,H01,Plate 03,BHClock1_1H12_2009,200,Plate 03,25,65.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+201,BHClock1_1E7_2015,203203210098_R03C02,2.212183436,100,yes,Plate 03,A02,Plate 03,BHClock1_1E7_2015,201,Plate 03,25,90.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+202,BHClock1_2H11_2010,203203210098_R04C02,7.140314853,100,yes,Plate 03,B02,Plate 03,BHClock1_2H11_2010,202,Plate 03,25,47.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+203,BHClock1_5E8_2017,203203210098_R05C02,0.10403833,100,yes,Plate 03,C02,Plate 03,BHClock1_5E8_2017,203,Plate 03,25,29.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+204,BHClock1_4C9_2016,203203210098_R06C02,1.226557153,100,yes,Plate 03,D02,Plate 03,BHClock1_4C9_2016,204,Plate 03,25,73.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+205,BHClock1_3G5_2010,203203210065_R01C01,7.140314853,100,yes,Plate 03,E02,Plate 03,BHClock1_3G5_2010,205,Plate 03,25,99.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+206,BHClock1_1D5_2013,203203210065_R02C01,4.183436003,100,yes,Plate 03,F02,Plate 03,BHClock1_1D5_2013,206,Plate 03,25,103.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+207,BHClock1_3C6_2010,203203210065_R03C01,7.140314853,100,yes,Plate 03,G02,Plate 03,BHClock1_3C6_2010,207,Plate 03,25,121.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+208,BHClock1_5D6_2017,203203210065_R04C01,0.10403833,100,yes,Plate 03,H02,Plate 03,BHClock1_5D6_2017,208,Plate 03,25,43.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+209,BHClock1_3B8_2014,203203210065_R05C01,3.197809719,100,yes,Plate 03,A03,Plate 03,BHClock1_3B8_2014,209,Plate 03,25,70.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+210,BHClock1_4D12_2016,203203210065_R06C01,1.226557153,100,yes,Plate 03,B03,Plate 03,BHClock1_4D12_2016,210,Plate 03,25,68,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+211,BHClock1_5E1_2017,203203210065_R01C02,0.10403833,100,yes,Plate 03,C03,Plate 03,BHClock1_5E1_2017,211,Plate 03,25,56.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+212,BHClock1_3G9_2011,203203210065_R02C02,6.154688569,100,yes,Plate 03,D03,Plate 03,BHClock1_3G9_2011,212,Plate 03,25,102.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+213,BHClock1_1G5_2013,203203210065_R03C02,4.183436003,100,yes,Plate 03,E03,Plate 03,BHClock1_1G5_2013,213,Plate 03,25,23.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+214,BHClock1_3G7_2010,203203210065_R04C02,7.140314853,100,yes,Plate 03,F03,Plate 03,BHClock1_3G7_2010,214,Plate 03,25,86.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+215,BHClock1_4A2_2010,203203210065_R05C02,7.140314853,100,yes,Plate 03,G03,Plate 03,BHClock1_4A2_2010,215,Plate 03,25,55.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+216,BHClock1_3A8_2014,203203210065_R06C02,3.197809719,100,yes,Plate 03,H03,Plate 03,BHClock1_3A8_2014,216,Plate 03,25,92.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+217,BHClock1_3G12_2008,203203210099_R01C01,9.11156742,100,yes,Plate 03,A04,Plate 03,BHClock1_3G12_2008,217,Plate 03,25,71.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+218,BHClock1_1E8_2015,203203210099_R02C01,2.212183436,100,yes,Plate 03,B04,Plate 03,BHClock1_1E8_2015,218,Plate 03,25,79.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+219,BHClock1_3H9_2012,203203210099_R03C01,5.169062286,100,yes,Plate 03,C04,Plate 03,BHClock1_3H9_2012,219,Plate 03,25,80.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+220,BHClock1_5B3_2017,203203210099_R04C01,0.10403833,100,yes,Plate 03,D04,Plate 03,BHClock1_5B3_2017,220,Plate 03,25,24.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+221,BHClock1_4E10_2016,203203210099_R05C01,1.226557153,100,yes,Plate 03,E04,Plate 03,BHClock1_4E10_2016,221,Plate 03,25,90.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+222,BHClock1_5D4_2017,203203210099_R06C01,0.10403833,100,yes,Plate 03,F04,Plate 03,BHClock1_5D4_2017,222,Plate 03,25,26.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+223,BHClock1_2A2_2012,203203210099_R01C02,5.169062286,100,yes,Plate 03,G04,Plate 03,BHClock1_2A2_2012,223,Plate 03,25,105.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+224,BHClock1_3F12_2011,203203210099_R02C02,6.154688569,100,yes,Plate 03,H04,Plate 03,BHClock1_3F12_2011,224,Plate 03,25,119.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+225,BHClock1_2C5_2009,203203210099_R03C02,8.125941136,100,yes,Plate 03,A05,Plate 03,BHClock1_2C5_2009,225,Plate 03,25,156,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+226,BHClock1_3F6_2011,203203210099_R04C02,6.154688569,100,yes,Plate 03,B05,Plate 03,BHClock1_3F6_2011,226,Plate 03,25,20,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+227,BHClock1_5F5_2017,203203210099_R05C02,0.10403833,100,yes,Plate 03,C05,Plate 03,BHClock1_5F5_2017,227,Plate 03,25,29.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+228,BHClock1_3E1_2010,203203210099_R06C02,7.140314853,100,yes,Plate 03,D05,Plate 03,BHClock1_3E1_2010,228,Plate 03,25,56,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+229,BHClock1_3H5_2010,203203210041_R01C01,7.140314853,100,yes,Plate 03,E05,Plate 03,BHClock1_3H5_2010,229,Plate 03,25,53.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+230,BHClock1_5H7_2017,203203210041_R02C01,0.10403833,100,yes,Plate 03,F05,Plate 03,BHClock1_5H7_2017,230,Plate 03,25,61.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+231,BHClock1_3F3_2013,203203210041_R03C01,4.183436003,100,yes,Plate 03,G05,Plate 03,BHClock1_3F3_2013,231,Plate 03,25,95.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+232,BHClock1_3A3_2010,203203210041_R04C01,7.140314853,100,yes,Plate 03,H05,Plate 03,BHClock1_3A3_2010,232,Plate 03,25,81.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+233,BHClock1_5D1_2017,203203210041_R05C01,0.10403833,100,yes,Plate 03,A06,Plate 03,BHClock1_5D1_2017,233,Plate 03,25,37.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+234,BHClock1_1A6_2014,203203210041_R06C01,3.197809719,100,yes,Plate 03,B06,Plate 03,BHClock1_1A6_2014,234,Plate 03,25,95.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+235,BHClock1_3C5_2010,203203210041_R01C02,7.140314853,100,yes,Plate 03,C06,Plate 03,BHClock1_3C5_2010,235,Plate 03,25,89.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+236,BHClock1_3G6_2009,203203210041_R02C02,8.125941136,100,yes,Plate 03,D06,Plate 03,BHClock1_3G6_2009,236,Plate 03,25,74,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+237,BHClock1_3F4_2010,203203210041_R03C02,7.140314853,100,yes,Plate 03,E06,Plate 03,BHClock1_3F4_2010,237,Plate 03,25,49.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+238,BHClock1_4E9_2016,203203210041_R04C02,1.226557153,100,yes,Plate 03,F06,Plate 03,BHClock1_4E9_2016,238,Plate 03,25,51.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+239,BHClock1_4B4_2016,203203210041_R05C02,1.226557153,100,yes,Plate 03,G06,Plate 03,BHClock1_4B4_2016,239,Plate 03,25,66.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+240,BHClock1_3E4_2013,203203210041_R06C02,4.183436003,100,yes,Plate 03,H06,Plate 03,BHClock1_3E4_2013,240,Plate 03,25,79.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+241,BHClock1_1F2_2014,203203210042_R01C01,3.197809719,100,yes,Plate 03,A07,Plate 03,BHClock1_1F2_2014,241,Plate 03,25,56.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+242,BHClock1_4C11_2016,203203210042_R02C01,1.226557153,100,yes,Plate 03,B07,Plate 03,BHClock1_4C11_2016,242,Plate 03,25,81.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+243,BHClock1_3D10_2012,203203210042_R03C01,5.169062286,100,yes,Plate 03,C07,Plate 03,BHClock1_3D10_2012,243,Plate 03,25,68.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+244,BHClock1_3G3_2009,203203210042_R04C01,8.125941136,100,yes,Plate 03,D07,Plate 03,BHClock1_3G3_2009,244,Plate 03,25,56,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+245,BHClock1_1G4_2015,203203210042_R05C01,2.212183436,100,yes,Plate 03,E07,Plate 03,BHClock1_1G4_2015,245,Plate 03,25,59.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+246,BHClock1_3D9_2010,203203210042_R06C01,7.140314853,100,yes,Plate 03,F07,Plate 03,BHClock1_3D9_2010,246,Plate 03,25,83,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+247,BHClock1_3C7_2010,203203210042_R01C02,7.140314853,100,yes,Plate 03,G07,Plate 03,BHClock1_3C7_2010,247,Plate 03,25,62.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+248,BHClock1_1F4_2014,203203210042_R02C02,3.197809719,100,yes,Plate 03,H07,Plate 03,BHClock1_1F4_2014,248,Plate 03,25,89.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+249,BHClock1_5H8_2017,203203210042_R03C02,0.10403833,100,yes,Plate 03,A08,Plate 03,BHClock1_5H8_2017,249,Plate 03,25,28.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+250,BHClock1_1B1_2012,203203210042_R04C02,5.169062286,100,yes,Plate 03,B08,Plate 03,BHClock1_1B1_2012,250,Plate 03,25,68.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+251,BHClock1_2H4_2010,203203210042_R05C02,7.140314853,100,yes,Plate 03,C08,Plate 03,BHClock1_2H4_2010,251,Plate 03,25,110.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+252,BHClock1_5E7_2017,203203210042_R06C02,0.10403833,100,yes,Plate 03,D08,Plate 03,BHClock1_5E7_2017,252,Plate 03,25,49.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+253,BHClock1_3G10_2010,203203210055_R01C01,7.140314853,100,yes,Plate 03,E08,Plate 03,BHClock1_3G10_2010,253,Plate 03,25,44.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+254,BHClock1_3C8_2013,203203210055_R02C01,4.183436003,100,yes,Plate 03,F08,Plate 03,BHClock1_3C8_2013,254,Plate 03,25,92.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+255,BHClock1_4A4_2010,203203210055_R03C01,7.140314853,100,yes,Plate 03,G08,Plate 03,BHClock1_4A4_2010,255,Plate 03,25,47.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+256,BHClock1_1B4_2013,203203210055_R04C01,4.183436003,100,yes,Plate 03,H08,Plate 03,BHClock1_1B4_2013,256,Plate 03,25,75.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+257,BHClock1_1C6_2015,203203210055_R05C01,2.212183436,100,yes,Plate 03,A09,Plate 03,BHClock1_1C6_2015,257,Plate 03,25,53.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+258,BHClock1_3B12_2009,203203210055_R06C01,8.125941136,100,yes,Plate 03,B09,Plate 03,BHClock1_3B12_2009,258,Plate 03,25,121.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+259,BHClock1_5B5_2017,203203210055_R01C02,0.10403833,100,yes,Plate 03,C09,Plate 03,BHClock1_5B5_2017,259,Plate 03,25,41.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+260,BHClock1_4D1_2016,203203210055_R02C02,1.226557153,100,yes,Plate 03,D09,Plate 03,BHClock1_4D1_2016,260,Plate 03,25,121.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+261,BHClock1_4E7_2016,203203210055_R03C02,1.226557153,100,yes,Plate 03,E09,Plate 03,BHClock1_4E7_2016,261,Plate 03,25,47.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+262,BHClock1_1H4_2014,203203210055_R04C02,3.197809719,100,yes,Plate 03,F09,Plate 03,BHClock1_1H4_2014,262,Plate 03,25,81.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+263,BHClock1_1G10_2008,203203210055_R05C02,9.11156742,100,yes,Plate 03,G09,Plate 03,BHClock1_1G10_2008,263,Plate 03,25,65.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+264,BHClock1_1F6_2014,203203210055_R06C02,3.197809719,100,yes,Plate 03,H09,Plate 03,BHClock1_1F6_2014,264,Plate 03,25,63.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+265,BHClock1_4E8_2016,203203210038_R01C01,1.226557153,100,yes,Plate 03,A10,Plate 03,BHClock1_4E8_2016,265,Plate 03,25,42.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+266,BHClock1_1C1_2015,203203210038_R02C01,2.212183436,100,yes,Plate 03,B10,Plate 03,BHClock1_1C1_2015,266,Plate 03,25,73.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+267,BHClock1_3E5_2008,203203210038_R03C01,9.11156742,100,yes,Plate 03,C10,Plate 03,BHClock1_3E5_2008,267,Plate 03,25,64.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+268,BHClock1_3H1_2010,203203210038_R04C01,7.140314853,100,yes,Plate 03,D10,Plate 03,BHClock1_3H1_2010,268,Plate 03,25,32.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+269,BHClock1_2E2_2012,203203210038_R05C01,5.169062286,100,yes,Plate 03,E10,Plate 03,BHClock1_2E2_2012,269,Plate 03,25,97.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+270,BHClock1_4E3_2016,203203210038_R06C01,1.226557153,100,yes,Plate 03,F10,Plate 03,BHClock1_4E3_2016,270,Plate 03,25,77.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+271,BHClock1_1B2_2012,203203210038_R01C02,5.169062286,100,yes,Plate 03,G10,Plate 03,BHClock1_1B2_2012,271,Plate 03,25,87.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+272,BHClock1_4C2_2016,203203210038_R02C02,1.226557153,100,yes,Plate 03,H10,Plate 03,BHClock1_4C2_2016,272,Plate 03,25,98.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+273,BHClock1_3A1_2014,203203210038_R03C02,3.197809719,100,yes,Plate 03,A11,Plate 03,BHClock1_3A1_2014,273,Plate 03,25,53,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+274,BHClock1_3G2_2012,203203210038_R04C02,5.169062286,100,yes,Plate 03,B11,Plate 03,BHClock1_3G2_2012,274,Plate 03,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+275,BHClock1_1D6_2011,203203210038_R05C02,6.154688569,100,yes,Plate 03,C11,Plate 03,BHClock1_1D6_2011,275,Plate 03,25,99.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+276,BHClock1_1H2_2013,203203210038_R06C02,4.183436003,100,yes,Plate 03,D11,Plate 03,BHClock1_1H2_2013,276,Plate 03,25,79.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+277,BHClock1_5G1_2017,203203210016_R01C01,0.10403833,100,yes,Plate 03,E11,Plate 03,BHClock1_5G1_2017,277,Plate 03,25,31.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+278,BHClock1_3H3_2008,203203210016_R02C01,9.11156742,100,yes,Plate 03,F11,Plate 03,BHClock1_3H3_2008,278,Plate 03,25,76.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+279,BHClock1_2D3_2009,203203210016_R03C01,8.125941136,100,yes,Plate 03,G11,Plate 03,BHClock1_2D3_2009,279,Plate 03,25,41.2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+280,BHClock1_1C5_2009,203203210016_R04C01,8.125941136,100,yes,Plate 03,H11,Plate 03,BHClock1_1C5_2009,280,Plate 03,25,81.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+281,BHClock1_1G7_2015,203203210016_R05C01,2.212183436,100,yes,Plate 03,A12,Plate 03,BHClock1_1G7_2015,281,Plate 03,25,86.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+282,BHClock1_4E4_2016,203203210016_R06C01,1.226557153,100,yes,Plate 03,B12,Plate 03,BHClock1_4E4_2016,282,Plate 03,25,37.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+283,BHClock1_3H11_2009,203203210016_R01C02,8.125941136,100,yes,Plate 03,C12,Plate 03,BHClock1_3H11_2009,283,Plate 03,25,20,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+284,BHClock1_1B3_2011,203203210016_R02C02,6.154688569,100,yes,Plate 03,D12,Plate 03,BHClock1_1B3_2011,284,Plate 03,25,81.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+285,BHClock1_1G6_2015,203203210016_R03C02,2.212183436,100,yes,Plate 03,E12,Plate 03,BHClock1_1G6_2015,285,Plate 03,25,52.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+286,BHClock1_1F9_2015,203203210016_R04C02,2.212183436,100,yes,Plate 03,F12,Plate 03,BHClock1_1F9_2015,286,Plate 03,25,56.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+287,BHClock1_5F7_2017,203203210016_R05C02,0.10403833,100,yes,Plate 03,G12,Plate 03,BHClock1_5F7_2017,287,Plate 03,25,26.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+288,BHClock1_3F8_2013,203203210016_R06C02,4.183436003,100,yes,Plate 03,H12,Plate 03,BHClock1_3F8_2013,288,Plate 03,25,66.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+289,BHClock1_1H6_2010,203203210063_R01C01,7.140314853,100,yes,Plate 04,A01,Plate 04,BHClock1_1H6_2010,289,Plate 04,25,54.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+290,BHClock1_1G3_2009,203203210063_R02C01,8.125941136,100,yes,Plate 04,B01,Plate 04,BHClock1_1G3_2009,290,Plate 04,25,40.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+291,BHClock1_4E1_2016,203203210063_R03C01,1.226557153,100,yes,Plate 04,C01,Plate 04,BHClock1_4E1_2016,291,Plate 04,25,75,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+292,BHClock1_1G2_2011,203203210063_R04C01,6.154688569,100,yes,Plate 04,D01,Plate 04,BHClock1_1G2_2011,292,Plate 04,25,65.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+293,BHClock1_2F5_2010,203203210063_R05C01,7.140314853,100,yes,Plate 04,E01,Plate 04,BHClock1_2F5_2010,293,Plate 04,25,58.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+294,BHClock1_5E3_2017,203203210063_R06C01,0.10403833,100,yes,Plate 04,F01,Plate 04,BHClock1_5E3_2017,294,Plate 04,25,62,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+295,BHClock1_4D6_2016,203203210063_R01C02,1.226557153,100,yes,Plate 04,G01,Plate 04,BHClock1_4D6_2016,295,Plate 04,25,99.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+296,BHClock1_4E6_2016,203203210063_R02C02,1.226557153,100,yes,Plate 04,H01,Plate 04,BHClock1_4E6_2016,296,Plate 04,25,77.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+297,BHClock1_4E11_2016,203203210063_R03C02,1.226557153,100,yes,Plate 04,A02,Plate 04,BHClock1_4E11_2016,297,Plate 04,25,57.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+298,BHClock1_2H2_2008,203203210063_R04C02,9.11156742,100,yes,Plate 04,B02,Plate 04,BHClock1_2H2_2008,298,Plate 04,25,115.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+299,BHClock1_3D5_2011,203203210063_R05C02,6.154688569,100,yes,Plate 04,C02,Plate 04,BHClock1_3D5_2011,299,Plate 04,25,56.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+300,BHClock1_4E5_2016,203203210063_R06C02,1.226557153,100,yes,Plate 04,D02,Plate 04,BHClock1_4E5_2016,300,Plate 04,25,85.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+301,BHClock1_2D12_2015,203203210102_R01C01,2.212183436,100,yes,Plate 04,E02,Plate 04,BHClock1_2D12_2015,301,Plate 04,25,137.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+302,BHClock1_1E1_2009,203203210102_R02C01,8.125941136,100,yes,Plate 04,F02,Plate 04,BHClock1_1E1_2009,302,Plate 04,25,64.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+303,BHClock1_5G3_2017,203203210102_R03C01,0.10403833,100,yes,Plate 04,G02,Plate 04,BHClock1_5G3_2017,303,Plate 04,25,43.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+304,BHClock1_3B1_2008,203203210102_R04C01,9.11156742,100,yes,Plate 04,H02,Plate 04,BHClock1_3B1_2008,304,Plate 04,25,38.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+305,BHClock1_5A8_2017,203203210102_R05C01,0.10403833,100,yes,Plate 04,A03,Plate 04,BHClock1_5A8_2017,305,Plate 04,25,45.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+306,BHClock1_3G4_2009,203203210102_R06C01,8.125941136,100,yes,Plate 04,B03,Plate 04,BHClock1_3G4_2009,306,Plate 04,25,105.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Clock,,NA,female,1,NA,NA,,1,
+307,Wether_Ear_E5_EARNS_2016,203203210102_R01C02,1.94934976,100,yes,Plate 04,C03,Plate 04,Wether_Ear_E5_EARNS_2016,307,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+308,Ram_Ear_B5_EARNS_2013,203203210102_R02C02,4.906228611,100,yes,Plate 04,D03,Plate 04,Ram_Ear_B5_EARNS_2013,308,Plate 04,25,50.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+309,Wether_Ear_A1_EARNS_2012,203203210102_R03C02,5.891854894,100,yes,Plate 04,E03,Plate 04,Wether_Ear_A1_EARNS_2012,309,Plate 04,25,44.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+310,Ram_Ear_D10_EARNS_2015,203203210102_R04C02,2.934976044,100,yes,Plate 04,F03,Plate 04,Ram_Ear_D10_EARNS_2015,310,Plate 04,25,36.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+311,Wether_Ear_B2_EARNS_2013,203203210102_R05C02,4.906228611,100,yes,Plate 04,G03,Plate 04,Wether_Ear_B2_EARNS_2013,311,Plate 04,25,38.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+312,Ram_Ear_H9_EARNS_2016,203203210102_R06C02,1.94934976,100,yes,Plate 04,H03,Plate 04,Ram_Ear_H9_EARNS_2016,312,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+313,Wether_Ear_C2_EARNS_2013,203203210067_R01C01,4.906228611,100,yes,Plate 04,A04,Plate 04,Wether_Ear_C2_EARNS_2013,313,Plate 04,25,43.6,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+314,Ram_Ear_G2_EARNS_2015,203203210067_R02C01,2.934976044,100,yes,Plate 04,B04,Plate 04,Ram_Ear_G2_EARNS_2015,314,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+315,Wether_Ear_F5_EARNS_2016,203203210067_R03C01,1.94934976,100,yes,Plate 04,C04,Plate 04,Wether_Ear_F5_EARNS_2016,315,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+316,Ram_Ear_97_EARNS_2016,203203210067_R04C01,1.94934976,100,yes,Plate 04,D04,Plate 04,Ram_Ear_97_EARNS_2016,316,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+317,Wether_Ear_B1_EARNS_2012,203203210067_R05C01,5.891854894,100,yes,Plate 04,E04,Plate 04,Wether_Ear_B1_EARNS_2012,317,Plate 04,25,43.3,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+318,Ram_Ear_F12_MATAK_2015,203203210067_R06C01,2.934976044,100,yes,Plate 04,F04,Plate 04,Ram_Ear_F12_MATAK_2015,318,Plate 04,25,56.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+319,Wether_Ear_H4_EARNS_2015,203203210067_R01C02,2.934976044,100,yes,Plate 04,G04,Plate 04,Wether_Ear_H4_EARNS_2015,319,Plate 04,25,41.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+320,Ram_Ear_A5_EARNS_2016,203203210067_R02C02,1.94934976,100,yes,Plate 04,H04,Plate 04,Ram_Ear_A5_EARNS_2016,320,Plate 04,25,61.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+321,Wether_Ear_A4_EARNS_2015,203203210067_R03C02,2.934976044,100,yes,Plate 04,A05,Plate 04,Wether_Ear_A4_EARNS_2015,321,Plate 04,25,41.9,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+322,Ram_Ear_D12_MATAK_2013,203203210067_R04C02,4.906228611,100,yes,Plate 04,B05,Plate 04,Ram_Ear_D12_MATAK_2013,322,Plate 04,25,51.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+323,Wether_Ear_C4_EARNS_2015,203203210067_R05C02,2.934976044,100,yes,Plate 04,C05,Plate 04,Wether_Ear_C4_EARNS_2015,323,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+324,Ram_Ear_B12_EARNS_2016,203203210067_R06C02,1.94934976,100,yes,Plate 04,D05,Plate 04,Ram_Ear_B12_EARNS_2016,324,Plate 04,25,50.5,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+325,Wether_Ear_E6_EARNS_2016,203203210028_R01C01,1.94934976,100,yes,Plate 04,E05,Plate 04,Wether_Ear_E6_EARNS_2016,325,Plate 04,25,58.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+326,Ram_Ear_G6_MATAK_2013,203203210028_R02C01,4.906228611,100,yes,Plate 04,F05,Plate 04,Ram_Ear_G6_MATAK_2013,326,Plate 04,25,44.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+327,Wether_Ear_D2_EARNS_2013,203203210028_R03C01,4.906228611,100,yes,Plate 04,G05,Plate 04,Wether_Ear_D2_EARNS_2013,327,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+328,Ram_Ear_H4_EARNS_2016,203203210028_R04C01,1.94934976,100,yes,Plate 04,H05,Plate 04,Ram_Ear_H4_EARNS_2016,328,Plate 04,25,37.4,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+329,Wether_Ear_G2_EARNS_2013,203203210028_R05C01,4.906228611,100,yes,Plate 04,A06,Plate 04,Wether_Ear_G2_EARNS_2013,329,Plate 04,25,30,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+330,Ram_Ear_D5_MATAK_2012,203203210028_R06C01,5.891854894,100,yes,Plate 04,B06,Plate 04,Ram_Ear_D5_MATAK_2012,330,Plate 04,25,51.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+331,Wether_Ear_A5_EARNS_2016,203203210028_R01C02,1.94934976,100,yes,Plate 04,C06,Plate 04,Wether_Ear_A5_EARNS_2016,331,Plate 04,25,38.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+332,Ram_Ear_H10_EARNS_2013,203203210028_R02C02,4.906228611,100,yes,Plate 04,D06,Plate 04,Ram_Ear_H10_EARNS_2013,332,Plate 04,25,37.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+333,Wether_Ear_A6_EARNS_2016,203203210028_R03C02,1.94934976,100,yes,Plate 04,E06,Plate 04,Wether_Ear_A6_EARNS_2016,333,Plate 04,25,53.1,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+334,Ram_Ear_A2_EARNS_2016,203203210028_R04C02,1.94934976,100,yes,Plate 04,F06,Plate 04,Ram_Ear_A2_EARNS_2016,334,Plate 04,25,37.8,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+335,Wether_Ear_B5_EARNS_2016,203203210028_R05C02,1.94934976,100,yes,Plate 04,G06,Plate 04,Wether_Ear_B5_EARNS_2016,335,Plate 04,25,46.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,1,MACastrates
+336,Ram_Ear_E9_EARNS_2016,203203210028_R06C02,1.94934976,100,yes,Plate 04,H06,Plate 04,Ram_Ear_E9_EARNS_2016,336,Plate 04,25,43.7,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,1,MACastrates
+337,Wether_Ear_C6_EARNS_2016,203531420003_R01C01,1.94934976,100,yes,Plate 05,A01,Plate 05,Wether_Ear_C6_EARNS_2016,,,12.33066183,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+338,Ram_Ear_F10_EARNS_2015,203531420003_R02C01,2.934976044,100,yes,Plate 05,B01,Plate 05,Ram_Ear_F10_EARNS_2015,,,2.785483244,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+339,Wether_Ear_F6_EARNS_2016,203531420003_R03C01,1.94934976,100,yes,Plate 05,C01,Plate 05,Wether_Ear_F6_EARNS_2016,,,4.409921973,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+340,Ram_Ear_E3_MATAK_2012,203531420003_R04C01,5.891854894,100,yes,Plate 05,D01,Plate 05,Ram_Ear_E3_MATAK_2012,,,8.830580386,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+341,Wether_Ear_B6_EARNS_2016,203531420003_R05C01,1.94934976,100,yes,Plate 05,E01,Plate 05,Wether_Ear_B6_EARNS_2016,,,10.9773301,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+342,Ram_Ear_G1_EARNS_2016,203531420003_R06C01,1.94934976,100,yes,Plate 05,F01,Plate 05,Ram_Ear_G1_EARNS_2016,,,2.430842324,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+343,Wether_Ear_E2_EARNS_2013,203531420003_R01C02,4.906228611,100,yes,Plate 05,G01,Plate 05,Wether_Ear_E2_EARNS_2013,,,9.285088918,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+344,Ram_Ear_E5_EARNS_2013,203531420003_R02C02,4.906228611,100,yes,Plate 05,H01,Plate 05,Ram_Ear_E5_EARNS_2013,,,14.47083106,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+345,Wether_Ear_G5_EARNS_2016,203531420003_R03C02,1.94934976,100,yes,Plate 05,A02,Plate 05,Wether_Ear_G5_EARNS_2016,,,14.04195409,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+346,Ram_Ear_C10_MATAK_2013,203531420003_R04C02,4.906228611,100,yes,Plate 05,B02,Plate 05,Ram_Ear_C10_MATAK_2013,,,49.4113342,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+347,Wether_Ear_G4_EARNS_2015,203531420003_R05C02,2.934976044,100,yes,Plate 05,C02,Plate 05,Wether_Ear_G4_EARNS_2015,,,3.728474979,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+348,Ram_Ear_A6_EARNS_2016,203531420003_R06C02,1.94934976,100,yes,Plate 05,D02,Plate 05,Ram_Ear_A6_EARNS_2016,,,29.08154051,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+349,Wether_Ear_D5_EARNS_2016,203531420043_R01C01,1.94934976,100,yes,Plate 05,E02,Plate 05,Wether_Ear_D5_EARNS_2016,,,13.79221896,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+350,Ram_Ear_B10_MATAK_2013,203531420043_R02C01,4.906228611,100,yes,Plate 05,F02,Plate 05,Ram_Ear_B10_MATAK_2013,,,45.33397713,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+351,Wether_Ear_H2_EARNS_2013,203531420043_R03C01,4.906228611,100,yes,Plate 05,G02,Plate 05,Wether_Ear_H2_EARNS_2013,,,12.51086125,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,MACastrates
+352,Ram_Ear_B2_EARNS_2016,203531420043_R04C01,1.94934976,100,yes,Plate 05,H02,Plate 05,Ram_Ear_B2_EARNS_2016,,,1.728816639,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,MACastrates
+353,WETHER_A2_2828_2018,203531420043_R05C01,0.539356605,100,yes,Plate 05,A03,Plate 05,WETHER_A2_2828_2018,,,14.29392188,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+354,RAM_A1_2778_2018,203531420043_R06C01,0.539356605,100,yes,Plate 05,B03,Plate 05,RAM_A1_2778_2018,,,21.24774232,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+355,WETHER_A3_2844_2018,203531420043_R01C02,0.539356605,100,yes,Plate 05,C03,Plate 05,WETHER_A3_2844_2018,,,15.98782288,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+356,RAM_A7_2781_2018,203531420043_R02C02,0.539356605,100,yes,Plate 05,D03,Plate 05,RAM_A7_2781_2018,,,9.183708383,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+357,WETHER_A4_2839_2018,203531420043_R03C02,0.539356605,100,yes,Plate 05,E03,Plate 05,WETHER_A4_2839_2018,,,9.412703245,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+358,RAM_A8_2792_2018,203531420043_R04C02,0.539356605,100,yes,Plate 05,F03,Plate 05,RAM_A8_2792_2018,,,9.722411819,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+359,WETHER_A5_2851_2018,203531420043_R05C02,0.539356605,100,yes,Plate 05,G03,Plate 05,WETHER_A5_2851_2018,,,1.034825603,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+360,RAM_A9_2790_2018,203531420043_R06C02,0.539356605,100,yes,Plate 05,H03,Plate 05,RAM_A9_2790_2018,,,11.30735297,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+361,WETHER_A6_2800_2018,203531420090_R01C01,0.539356605,100,yes,Plate 05,A04,Plate 05,WETHER_A6_2800_2018,,,8.679053061,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+362,RAM_A12_2768_2018,203531420090_R02C01,0.539356605,100,yes,Plate 05,B04,Plate 05,RAM_A12_2768_2018,,,13.29837443,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+363,WETHER_B2_2826_2018,203531420090_R03C01,0.539356605,100,yes,Plate 05,C04,Plate 05,WETHER_B2_2826_2018,,,18.27088255,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+364,RAM_B6_2774_2018,203531420090_R04C01,0.539356605,100,yes,Plate 05,D04,Plate 05,RAM_B6_2774_2018,,,12.81381308,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+365,WETHER_B3_2827_2018,203531420090_R05C01,0.539356605,100,yes,Plate 05,E04,Plate 05,WETHER_B3_2827_2018,,,11.1358345,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+366,RAM_B7_2751_2018,203531420090_R06C01,0.539356605,100,yes,Plate 05,F04,Plate 05,RAM_B7_2751_2018,,,22.14258491,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+367,WETHER_C1_2806_2018,203531420090_R01C02,0.539356605,100,yes,Plate 05,G04,Plate 05,WETHER_C1_2806_2018,,,19.92593227,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+368,RAM_B8_2783_2018,203531420090_R02C02,0.539356605,100,yes,Plate 05,H04,Plate 05,RAM_B8_2783_2018,,,24.36211651,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+369,WETHER_C2_2834_2018,203531420090_R03C02,0.539356605,100,yes,Plate 05,A05,Plate 05,WETHER_C2_2834_2018,,,11.97296568,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+370,RAM_B9_2793_2018,203531420090_R04C02,0.539356605,100,yes,Plate 05,B05,Plate 05,RAM_B9_2793_2018,,,12.69133975,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+371,WETHER_C3_2816_2018,203531420090_R05C02,0.539356605,100,yes,Plate 05,C05,Plate 05,WETHER_C3_2816_2018,,,23.54052583,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+372,RAM_B10_2776_2018,203531420090_R06C02,0.539356605,100,yes,Plate 05,D05,Plate 05,RAM_B10_2776_2018,,,21.52638456,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+373,WETHER_C5_2829_2018,203531420033_R01C01,0.539356605,100,yes,Plate 05,E05,Plate 05,WETHER_C5_2829_2018,,,23.13559124,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+374,RAM_B11_2750_2018,203531420033_R02C01,0.539356605,100,yes,Plate 05,F05,Plate 05,RAM_B11_2750_2018,,,32.39504769,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+375,WETHER_C7_2805_2018,203531420033_R03C01,0.539356605,100,yes,Plate 05,G05,Plate 05,WETHER_C7_2805_2018,,,27.69633458,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+376,RAM_C4_2753_2018,203531420033_R04C01,0.539356605,100,yes,Plate 05,H05,Plate 05,RAM_C4_2753_2018,,,3.805986582,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+377,WETHER_C10_2801_2018,203531420033_R05C01,0.539356605,100,yes,Plate 05,A06,Plate 05,WETHER_C10_2801_2018,,,28.81015442,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+378,RAM_C6_2799_2018,203531420033_R06C01,0.539356605,100,yes,Plate 05,B06,Plate 05,RAM_C6_2799_2018,,,17.2606906,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+379,WETHER_C11_2838_2018,203531420033_R01C02,0.539356605,100,yes,Plate 05,C06,Plate 05,WETHER_C11_2838_2018,,,26.03423434,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+380,RAM_C8_2798_2018,203531420033_R02C02,0.539356605,100,yes,Plate 05,D06,Plate 05,RAM_C8_2798_2018,,,17.98870037,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+381,WETHER_D1_2850_2018,203531420033_R03C02,0.539356605,100,yes,Plate 05,E06,Plate 05,WETHER_D1_2850_2018,,,16.35143851,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+382,RAM_C9_2782_2018,203531420033_R04C02,0.539356605,100,yes,Plate 05,F06,Plate 05,RAM_C9_2782_2018,,,17.87088332,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+383,WETHER_D2_2815_2018,203531420033_R05C02,0.539356605,100,yes,Plate 05,G06,Plate 05,WETHER_D2_2815_2018,,,14.19603723,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+384,RAM_C12_2780_2018,203531420033_R06C02,0.539356605,100,yes,Plate 05,H06,Plate 05,RAM_C12_2780_2018,,,18.42900505,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+385,WETHER_D3_2831_2018,203531420020_R01C01,0.539356605,100,yes,Plate 05,A07,Plate 05,WETHER_D3_2831_2018,,,15.41107603,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+386,RAM_D4_2773_2018,203531420020_R02C01,0.539356605,100,yes,Plate 05,B07,Plate 05,RAM_D4_2773_2018,,,19.54463159,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+387,WETHER_D8_2811_2018,203531420020_R03C01,0.539356605,100,yes,Plate 05,C07,Plate 05,WETHER_D8_2811_2018,,,18.58634905,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+388,RAM_D5_2748_2018,203531420020_R04C01,0.539356605,100,yes,Plate 05,D07,Plate 05,RAM_D5_2748_2018,,,17.29138971,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+389,WETHER_D10_2819_2018,203531420020_R05C01,0.539356605,100,yes,Plate 05,E07,Plate 05,WETHER_D10_2819_2018,,,12.55577891,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+390,RAM_D6_2767_2018,203531420020_R06C01,0.539356605,100,yes,Plate 05,F07,Plate 05,RAM_D6_2767_2018,,,22.96189885,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+391,WETHER_E2_2849_2018,203531420020_R01C02,0.539356605,100,yes,Plate 05,G07,Plate 05,WETHER_E2_2849_2018,,,12.76144831,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+392,RAM_D7_2772_2018,203531420020_R02C02,0.539356605,100,yes,Plate 05,H07,Plate 05,RAM_D7_2772_2018,,,14.83216997,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+393,WETHER_E3_2802_2018,203531420020_R03C02,0.539356605,100,yes,Plate 05,A08,Plate 05,WETHER_E3_2802_2018,,,18.41578533,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+394,RAM_D11_2759_2018,203531420020_R04C02,0.539356605,100,yes,Plate 05,B08,Plate 05,RAM_D11_2759_2018,,,15.7629555,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+395,WETHER_E5_2814_2018,203531420020_R05C02,0.539356605,100,yes,Plate 05,C08,Plate 05,WETHER_E5_2814_2018,,,14.47391566,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+396,RAM_D12_2760_2018,203531420020_R06C02,0.539356605,100,yes,Plate 05,D08,Plate 05,RAM_D12_2760_2018,,,16.56477536,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+397,WETHER_E8_2803_2018,203531420089_R01C01,0.539356605,100,yes,Plate 05,E08,Plate 05,WETHER_E8_2803_2018,,,28.19386594,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+398,RAM_E1_2779_2018,203531420089_R02C01,0.539356605,100,yes,Plate 05,F08,Plate 05,RAM_E1_2779_2018,,,17.54168301,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+399,WETHER_E10_2804_2018,203531420089_R03C01,0.539356605,100,yes,Plate 05,G08,Plate 05,WETHER_E10_2804_2018,,,24.15951701,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+400,RAM_E4_2755_2018,203531420089_R04C01,0.539356605,100,yes,Plate 05,H08,Plate 05,RAM_E4_2755_2018,,,11.26606339,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+401,WETHER_E11_2843_2018,203531420089_R05C01,0.539356605,100,yes,Plate 05,A09,Plate 05,WETHER_E11_2843_2018,,,12.7831874,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+402,RAM_E7_2766_2018,203531420089_R06C01,0.539356605,100,yes,Plate 05,B09,Plate 05,RAM_E7_2766_2018,,,19.03844866,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+403,WETHER_E12_2830_2018,203531420089_R01C02,0.539356605,100,yes,Plate 05,C09,Plate 05,WETHER_E12_2830_2018,,,29.85564302,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+404,RAM_E9_2763_2018,203531420089_R02C02,0.539356605,100,yes,Plate 05,D09,Plate 05,RAM_E9_2763_2018,,,24.28284227,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+405,WETHER_F1_2848_2018,203531420089_R03C02,0.539356605,100,yes,Plate 05,E09,Plate 05,WETHER_F1_2848_2018,,,18.16575643,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+406,RAM_F5_2757_2018,203531420089_R04C02,0.539356605,100,yes,Plate 05,F09,Plate 05,RAM_F5_2757_2018,,,17.09802933,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+407,WETHER_F3_2818_2018,203531420089_R05C02,0.539356605,100,yes,Plate 05,G09,Plate 05,WETHER_F3_2818_2018,,,16.52057744,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+408,RAM_F7_2797_2018,203531420089_R06C02,0.539356605,100,yes,Plate 05,H09,Plate 05,RAM_F7_2797_2018,,,14.84652071,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+409,WETHER_F4_2809_2018,203531420001_R01C01,0.539356605,100,yes,Plate 05,A10,Plate 05,WETHER_F4_2809_2018,,,19.21808991,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+410,RAM_F9_2794_2018,203531420001_R02C01,0.539356605,100,yes,Plate 05,B10,Plate 05,RAM_F9_2794_2018,,,17.11616972,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+411,WETHER_F6_2821_2018,203531420001_R03C01,0.539356605,100,yes,Plate 05,C10,Plate 05,WETHER_F6_2821_2018,,,15.7035696,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+412,RAM_F10_2752_2018,203531420001_R04C01,0.539356605,100,yes,Plate 05,D10,Plate 05,RAM_F10_2752_2018,,,26.86444721,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+413,WETHER_F8_2835_2018,203531420001_R05C01,0.539356605,100,yes,Plate 05,E10,Plate 05,WETHER_F8_2835_2018,,,17.13309096,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+414,RAM_F11_2761_2018,203531420001_R06C01,0.539356605,100,yes,Plate 05,F10,Plate 05,RAM_F11_2761_2018,,,24.07257534,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+415,WETHER_F12_2822_2018,203531420001_R01C02,0.539356605,100,yes,Plate 05,G10,Plate 05,WETHER_F12_2822_2018,,,23.77517579,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+416,RAM_G10_2756_2018,203531420001_R02C02,0.544832307,100,yes,Plate 05,H10,Plate 05,RAM_G10_2756_2018,,,14.62614804,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+417,WETHER_G1_2836_2018,203531420001_R03C02,0.539356605,100,yes,Plate 05,A11,Plate 05,WETHER_G1_2836_2018,,,17.56361305,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+418,RAM_G11_2749_2018,203531420001_R04C02,0.544832307,100,yes,Plate 05,B11,Plate 05,RAM_G11_2749_2018,,,23.94697335,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+419,WETHER_G2_2841_2018,203531420001_R05C02,0.539356605,100,yes,Plate 05,C11,Plate 05,WETHER_G2_2841_2018,,,18.32267447,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+420,RAM_G12_2788_2018,203531420001_R06C02,0.544832307,100,yes,Plate 05,D11,Plate 05,RAM_G12_2788_2018,,,27.11434391,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+421,WETHER_G4_2833_2018,203531420002_R01C01,0.544832307,100,yes,Plate 05,E11,Plate 05,WETHER_G4_2833_2018,,,9.450878848,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+422,RAM_H1_2770_2018,203531420002_R02C01,0.544832307,100,yes,Plate 05,F11,Plate 05,RAM_H1_2770_2018,,,19.1240096,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+423,WETHER_H2_2846_2018,203531420002_R03C01,0.544832307,100,yes,Plate 05,G11,Plate 05,WETHER_H2_2846_2018,,,17.10798819,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+424,RAM_H3_2771_2018,203531420002_R04C01,0.544832307,100,yes,Plate 05,H11,Plate 05,RAM_H3_2771_2018,,,12.79150114,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+425,WETHER_H4_2810_2018,203531420002_R05C01,0.544832307,100,yes,Plate 05,A12,Plate 05,WETHER_H4_2810_2018,,,22.86787729,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+426,RAM_H5_2777_2018,203531420002_R06C01,0.544832307,100,no,Plate 05,B12,Plate 05,RAM_H5_2777_2018,,,13.4796755,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+427,WETHER_H7_2812_2018,203531420002_R01C02,0.544832307,100,yes,Plate 05,C12,Plate 05,WETHER_H7_2812_2018,,,13.48505151,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+428,RAM_H6_2758_2018,203531420002_R02C02,0.544832307,100,yes,Plate 05,D12,Plate 05,RAM_H6_2758_2018,,,14.80197027,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+429,WETHER_H12_2840_2018,203531420002_R03C02,0.544832307,100,yes,Plate 05,E12,Plate 05,WETHER_H12_2840_2018,,,18.46591743,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+430,RAM_H8_2764_2018,203531420002_R04C02,0.544832307,100,no,Plate 05,F12,Plate 05,RAM_H8_2764_2018,,,7.872679749,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
+431,WETHER_OFFPLATE2_2817_2018,203531420002_R05C02,0.544832307,100,yes,Plate 05,G12,Plate 05,WETHER_OFFPLATE2_2817_2018,,,25.7963529,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,1,2,YPMCastrates
+432,RAM_OFFPLATE1_2791_2018,203531420002_R06C02,0.544832307,100,yes,Plate 05,H12,Plate 05,RAM_OFFPLATE1_2791_2018,,,22.73576826,2,NA,NA,NA,Ovis aries,Sheep,Ear,Ear,Castration,,NA,male,0,NA,NA,0,2,YPMCastrates
