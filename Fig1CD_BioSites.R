@@ -25,7 +25,6 @@ longcorrdata$Methylation=as.numeric(longcorrdata$Methylation)
 longcorrdata$Methylation <- longcorrdata$Methylation * 100
 
 
-
 ggplot(longcorrdata, aes(x=Age, y=Methylation, colour=Gene)) + 
   geom_jitter(width=0.1) +
   stat_smooth(method="lm", formula=y~log(x), fill="grey") +
