@@ -1,6 +1,7 @@
 library(ggplot2)
 
 weight <- read.csv("/Users/victoriasugrue/Desktop/sheepweights.csv")
+#this is a simplified version of file "YoungRamWetherInfo_DNAQuantEtc.csv" in long table format
 
 summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
                       conf.interval=.95, .drop=TRUE) {
