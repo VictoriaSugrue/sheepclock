@@ -1,6 +1,6 @@
 # sheepclock
-Scripts for sheep epigenetic clock/castration project
 
+This data and code relates to the publication; Sugrue et al. eLife 2021;10:e64932, entitled Castration delays epigenetic aging and feminizes DNA methylation at androgen-regulated loci (https://doi.org/10.7554/eLife.64932)
 
 Updated 18 June 2021
 
